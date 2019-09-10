@@ -1,0 +1,24 @@
+.avatar {
+  border-radius: 50%;
+  height: rem-calc(26);
+  width: rem-calc(26);
+
+  &.tiny {
+    height: rem-calc(20);
+    width: rem-calc(20);
+  }
+
+  &.small {
+    height: rem-calc(50);
+    width: rem-calc(50);
+  }
+
+  &.large {
+    height: rem-calc(175);
+    width: rem-calc(175);
+  }
+
+  + .card-author {
+    margin-left: rem-calc(8);
+  }
+}

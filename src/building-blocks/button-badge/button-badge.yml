@@ -1,0 +1,16 @@
+name: "Button with Notification Badge"
+tags:
+  - badge
+  - notification
+  - button
+  - icon
+  - alert
+category: status
+description: A simple button with an iOS style notification badge.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass: "row column container-padded medium-4 medium-centered text-center"

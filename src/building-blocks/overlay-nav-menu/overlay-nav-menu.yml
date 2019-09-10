@@ -1,0 +1,17 @@
+name: 'Overlay Navigation'
+tags:
+  - navigation
+  - nav
+  - menu
+  - js
+  - interaction
+category: navigation
+description: A simple but effective navigation pattern. Works on any screen size. Swap in a hamburger menu icon instead if you'd like. We created variable for you Sass users to quickly customize the styles.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

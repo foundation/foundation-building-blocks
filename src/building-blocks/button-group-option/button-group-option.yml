@@ -1,0 +1,17 @@
+name: "Button Group Options"
+tags:
+  - button
+  - ecommerce
+  - button group
+  - flexbox
+category: control
+description: A compact way to offer options focussed in a group of buttons.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+grid: flexbox
+containerClass: row align-center medium-6 large-5 column

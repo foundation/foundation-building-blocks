@@ -1,0 +1,20 @@
+name: Polls
+description: Polls with header question and options to choose (radio and checkboxes)
+category: media
+tags:
+  - polls
+  - radio
+  - checkboxes
+versions:
+  - 6.2.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.4
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda
+containerClass: none

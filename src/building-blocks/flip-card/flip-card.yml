@@ -1,0 +1,17 @@
+name: "Flip Card"
+tags:
+  - card
+  - hover
+  - button
+  - show hide
+  - interaction
+category: containers
+description: A flipping card with a neat hover interaction that reveals content on the back of the card. On a mobile device this will trigger the flip on a touch (not hover).
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

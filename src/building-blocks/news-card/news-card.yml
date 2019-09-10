@@ -1,0 +1,15 @@
+name: 'News/Magazine Card'
+tags:
+  - article
+  - news
+  - blog
+  - card
+category: media
+description: Article card great for news/magazine sites layouts. Use the grid to size the cards.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

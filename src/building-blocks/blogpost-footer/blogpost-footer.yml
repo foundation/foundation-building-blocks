@@ -1,0 +1,19 @@
+name: 'Blog Post Footer'
+tags:
+  - social
+  - blog
+  - flexbox
+  - button
+  - icons
+  - footer
+  - svg
+category: containers
+description: Great for the bottom of an article or blog post. You can highlight the author and bio along with some actions. There are 2 snippets provided - one with icon-fonts and one with nicer looking SVG's (as shown). Either way, your custom icons or images will work the same way.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

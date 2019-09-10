@@ -1,0 +1,16 @@
+name: "Button with Notification Badge"
+tags:
+  - badge
+  - notification
+  - button
+  - icon
+  - alert
+category: status
+description: A long button with icon and notification badge.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass: text-center container-padded

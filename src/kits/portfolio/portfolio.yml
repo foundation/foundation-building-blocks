@@ -1,0 +1,19 @@
+name: Portfolio
+short_description: Showcase your portfolio of creative work and put your best foot forward.
+description: A well designed portfolio could land you your dream job. The best portfolio sites are easy to browse, put content first, and establish the credibility of the creative with testimonials. To really make your work shine, the Portfolio Kit includes a unique header, featured work blocks, three kinds of testimonials, resume sections, image hover links, and a few options for your navigation and top bar.
+background: '#84366A'
+images:
+  'hero': 'portfolio-kit.jpg'
+  'card': 'portfolio-kit.jpg'
+blocks:
+  - portfolio-hero-header
+  - work-feature-block
+  - testimonial-block-vertical
+  - featured-testimonials
+  - testimonial-slider
+  - portfolio-resume-scrolling-container
+  - portfolio-resume
+  - topbar-responsive
+  - social-footer
+  - image-hover-wrapper
+  - menu-fancy

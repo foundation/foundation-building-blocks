@@ -1,0 +1,17 @@
+name: "Product Details"
+tags:
+  - ecommerce
+  - product
+  - selection
+  - details
+  - option
+  - add to cart
+category: containers
+description: Product Details for an eCommerce site that shows all the product options and CTA to Add to Cart.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: kwhchu
+  name: Kevin
+containerClass: none

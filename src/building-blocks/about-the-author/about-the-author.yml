@@ -1,0 +1,18 @@
+name: 'About the Author'
+tags:
+  - article
+  - news
+  - blog
+  - about
+  - social
+  - icons
+  - profile
+category: media
+description: About the author of an article usually found at the bottom of a news article.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

@@ -1,0 +1,16 @@
+name: "Hover Add to Cart Button"
+tags:
+  - button
+  - ecommerce
+  - hover
+  - interaction
+category: control
+description: Hover over the button to reveal a cart.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded text-center

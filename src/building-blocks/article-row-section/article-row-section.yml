@@ -1,0 +1,16 @@
+name: 'Article Row Section'
+tags:
+  - article
+  - blog
+  - img
+  - news
+category: media
+description: A news, blog or article block that you can use to lead into your writing. It works like a media object, meaning the image stays it's natural size until it stack for a small screen. You can use the .article-row-reversed class to have the image on right for large screens.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

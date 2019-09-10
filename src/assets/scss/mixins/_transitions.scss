@@ -1,0 +1,7 @@
+@mixin transition($transition) {
+  transition: $transition;
+}
+
+@mixin transition-delay($delay) {
+  transition-delay: $delay;
+}

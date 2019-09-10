@@ -1,0 +1,17 @@
+.building-block-iframe {
+  position: absolute; /* To fix iframe's hight in Edge */
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  min-height: 100%; /* To fix iframe's hight in Edge */
+}
+
+.building-block-iframe-wrapper {
+  position: relative; /* To fix iframe's hight in Edge */
+  min-height: 480px;
+
+  /* To fix iframe scrolling on ios */
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}

@@ -1,0 +1,14 @@
+name: "Log In Form"
+tags:
+  - form
+  - login
+category: form
+description: A simple log in form that can be added inside grid columns, modals, dropdown panes, or other UI components.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column align-center medium-6 large-4 container-padded

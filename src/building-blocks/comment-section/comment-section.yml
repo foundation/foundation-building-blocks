@@ -1,0 +1,16 @@
+name: "Comment Section"
+tags:
+  - comment
+  - news
+  - article
+  - social
+  - flexbox
+category: containers
+description: A simple checkout summary with a preview of the items in your order.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+  'foundation-forum': 22715

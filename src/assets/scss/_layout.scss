@@ -1,0 +1,24 @@
+$page-spacing: 2rem;
+
+.page-container {
+  padding-top: $page-spacing/2;
+  position: relative;
+
+  @include breakpoint(medium) {
+    padding-top: $page-spacing;
+  }
+}
+
+
+.scroll-container {
+  @include breakpoint(medium down) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+}
+
+.background-alt {
+  background: $pale-blue;
+}

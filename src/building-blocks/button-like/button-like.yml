@@ -1,0 +1,18 @@
+name: "Like Button"
+tags:
+  - like
+  - favorite
+  - social
+  - js
+  - button
+  - hover
+  - interaction
+category: control
+description: A modern, rounded, ghost-style "like" button with heart icon that fills on click.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass: text-center container-padded

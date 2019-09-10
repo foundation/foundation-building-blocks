@@ -1,0 +1,25 @@
+.feature-block-link {
+  display: flex;
+  margin-bottom: $global-margin;
+  align-items: flex-start;
+  padding: 1rem;
+  transition: $transition;
+
+  &:hover {
+    background: $light-gray;
+  }
+
+  .feature-block-link-title {
+    color: $body-font-color;
+    font-weight: $global-weight-bold;
+  }
+
+  .feature-block-link-img {
+    max-width: 226px;
+    border: 1px solid $light-gray;
+  }
+
+  img + * {
+    margin-left: $global-margin;
+  }
+}

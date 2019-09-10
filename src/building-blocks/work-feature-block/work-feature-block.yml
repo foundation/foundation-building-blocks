@@ -1,0 +1,19 @@
+name: Work Feature Block
+description: A page component for featuring work
+category: containers
+tags:
+  - portfolio
+  - work
+  - feature
+versions:
+  - 6.2.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.4
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

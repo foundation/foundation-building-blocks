@@ -1,0 +1,26 @@
+index:
+  'meta-title': 'Foundation Building Blocks'
+  title: 'Building Blocks'
+  subtitle: 'A Library of Foundation UI Components. These HTML, CSS and JS snippets can be plugged into any Foundation project to build faster. Enjoy!'
+  'hero-class': 'hero-building-blocks'
+navigation:
+  title: 'Navigation Building Blocks'
+  'hero-class': 'hero-building-blocks'
+status:
+  title: 'Status Building Blocks'
+  'hero-class': 'hero-building-blocks'
+media:
+  title: 'Media Building Blocks'
+  'hero-class': 'hero-building-blocks'
+containers:
+  title: 'Container Building Blocks'
+  'hero-class': 'hero-building-blocks'
+forms:
+  title: 'Form Building Blocks'
+  'hero-class': 'hero-building-blocks'
+control:
+  title: 'Control Building Blocks'
+  'hero-class': 'hero-building-blocks'
+'sign-in':
+  title: 'Sign In Building Blocks'
+  'hero-class': 'hero-building-blocks'

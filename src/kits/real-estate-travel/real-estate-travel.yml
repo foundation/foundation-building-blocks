@@ -1,0 +1,21 @@
+name: Real Estate or Travel
+short_description: Take your visitors to exotic locales and new destinations.
+description: Real Estate and Travel are two of the world’s biggest industries and really benefit from slick websites that showcase real world locations in style. The Real Estate/Travel Kit includes a large photo header, a handy tabbed search bar, a slick translucent form overlay, an image block grid, two top bar navigation styles, a footer, image hover links, and few other essentials so you’ll be able to build a website that makes people excited to start packing their bags.
+background: '#1C878A'
+images:
+  'hero': 'real-estate-kit.jpg'
+  'card': 'real-estate-kit.jpg'
+blocks:
+  - responsive-hero-section
+  - tabbed-search
+  - translucent-form-overlay
+  - topbar-responsive
+  - full-width-testimonial
+  - featured-image-block-grid
+  - topbar-center-logo
+  - travel-feature-card
+  - testimonial-block-vertical
+  - marketing-site-content-section
+  - marketing-site-footer
+  - social-footer
+  - image-hover-wrapper

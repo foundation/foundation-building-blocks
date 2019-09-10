@@ -1,0 +1,18 @@
+name: 'Marketing Site Footer'
+tags:
+  - contact
+  - image
+  - icons
+  - content
+  - flexbox
+  - grid
+  - footer
+category: containers
+description: A responsive footer to house important infor and links.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  name: Rafi
+containerClass: none

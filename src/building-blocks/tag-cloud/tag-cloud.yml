@@ -1,0 +1,13 @@
+name: 'Blog Tag Cloud'
+tags:
+  - tags
+  - blog
+  - label
+category: status
+description: A tag cloud section that wraps accordingly to it's container and content.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers

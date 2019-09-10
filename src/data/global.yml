@@ -1,0 +1,49 @@
+filter-nav:
+  -
+    img: assets/img/icons/filter-all.svg
+    title: All
+    page: 'index'
+    alt: All items icon
+    classes:
+  -
+    img: assets/img/icons/filter-featured.svg
+    title: Kits
+    page: 'kits'
+    alt: kits icon
+    classes:
+  -
+    img: assets/img/icons/filter-navigation.svg
+    title: Navigation
+    page: 'navigation'
+    alt: navigation icon
+    classes:
+  -
+    img: assets/img/icons/filter-status.svg
+    title: Status
+    page: 'status'
+    alt: status icon
+    classes:
+  -
+    img: assets/img/icons/filter-media.svg
+    title: Media
+    page: 'media'
+    alt: media icon
+    classes:
+  -
+    img: assets/img/icons/filter-containers.svg
+    title: Containers
+    page: 'containers'
+    alt: containers icon
+    classes:
+  -
+    img: assets/img/icons/filter-forms.svg
+    title: Forms
+    page: 'forms'
+    alt: forms icon
+    classes:
+  -
+    img: assets/img/icons/filter-control.svg
+    title: Control
+    page: 'control'
+    alt: control icon
+    classes:

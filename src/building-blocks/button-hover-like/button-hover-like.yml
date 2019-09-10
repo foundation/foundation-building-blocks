@@ -1,0 +1,19 @@
+name: "Hover Like Button"
+tags:
+  - button
+  - social
+  - like
+  - favorite
+  - ecommerce
+  - hover
+  - interaction
+category: control
+description: Hover over the button to reveal a heart.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded text-center

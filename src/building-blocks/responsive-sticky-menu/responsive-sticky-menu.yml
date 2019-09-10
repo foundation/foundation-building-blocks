@@ -1,0 +1,34 @@
+name: "Responsive Sticky Menu"
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+  - sticky
+category: navigation
+description: A menu component which is sticky (medium and up screen sizes by default) and responsive. FOUC prevention included. The whole bunch of demo content is to there just to show the sticky effect.
+versions:
+  - 6.4.1
+author:
+  github: pablopaul
+  name: Paul Vincent Beigang
+  twitter: pauvince
+containerClass: none
+requirements:
+  - flexbox
+
+# Best Practices (Delete these when copying into new Building Block)
+
+# name should be short and contain the name of the component used. Example: Article Card, Social Sharing Buttons
+
+# tags should be minimal but descriptive. Make sure to use a tag that matches the component used. Example: If your component used off-canvas and buttons then tag: off-canvas, button
+
+# category needs to match one of the main categories for your component to show. Navigation, status, media, containers, forms, control
+
+# description should describe what the Building Block is, what it can be used for or use cases, and any special instructions to use it or interact with it.
+
+# versions describe what versions of Foundation this component should work on. If you are not sure about older versions, specify only the version you built it with.
+
+# author describes yourself. Your GitHub username goes here, twitter handle so we can give you a shoutout and of-course your name.
+
+# containerClass can be used to inject a wrapper for your Building Block to present it better. The example here will center the Building Block and keep the width to 6 columns wide.

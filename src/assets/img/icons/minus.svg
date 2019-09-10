@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5.09870427" y="0.901295732" width="3.00571646" height="11.203125"></rect>
+    </defs>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <g id="Rectangle-16" transform="translate(6.601562, 6.502858) rotate(-270.000000) translate(-6.601562, -6.502858) ">
+                <use fill="#979797" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="5.59870427" y="1.40129573" width="2.00571646" height="10.203125"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

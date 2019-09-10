@@ -1,0 +1,19 @@
+name: "Card Profile Stats"
+tags:
+  - content
+  - js
+  - show hide
+  - interaction
+  - card
+  - profile
+  - dashboard
+category: containers
+description: A card profile stats container that shows and hide addition bio information.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: bryananthonylewis
+  name: Bryan Lewis
+  twitter: bryanlewis
+containerClass: none

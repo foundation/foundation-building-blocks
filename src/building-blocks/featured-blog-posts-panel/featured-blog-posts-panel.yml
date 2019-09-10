@@ -1,0 +1,15 @@
+name: 'Featured posts panel'
+tags:
+  - blog
+  - card
+  - content
+category: container
+description: This Building-block helps you to show the featured or latest posts in panels.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Abdullah Salem
+  github: abdullahsalem
+  'foundation-forum': 3045
+containerClass: row column small-12 large-8 align-center container-padded

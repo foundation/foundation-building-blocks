@@ -1,0 +1,205 @@
+.kit-card {
+  background: linear-gradient(70deg, #43053C, #427D93, #427D93);
+  border-radius: rem-calc(5);
+  color: $white;
+  height: $card-height;
+  margin-bottom: $page-spacing;
+  overflow: hidden;
+  position: relative;
+
+  @include breakpoint(medium down) {
+    margin-bottom: 1rem;
+  }
+}
+
+.kit-card-summary {
+  padding: 2rem 0 2rem 3rem;
+
+  @include breakpoint(900) {
+    padding: 3rem;
+  }
+}
+
+.kit-card-header {
+  font-weight: $global-weight-bold;
+}
+
+.kit-card-sub-header {
+  font-weight: $global-weight-semibold;
+}
+
+.kit-card-primary {
+  background: $white;
+  color: $primary-color;
+  font-weight: $global-weight-bold;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+
+  &.blue {
+    background: $primary-color;
+    color: $white;
+    margin-right: 0;
+  }
+}
+
+.arrow-down {
+  border-left: rem-calc(5) solid transparent;
+  border-right: rem-calc(5) solid transparent;
+  border-top: rem-calc(5) solid $primary-color;
+  display: inline-block;
+  height: 0;
+  margin-left: 1rem;
+  vertical-align: middle;
+  width: 0;
+
+  &.white {
+    border-top: rem-calc(5) solid $white;
+  }
+}
+
+.kit-card-secondary {
+  border-radius: $global-radius;
+  border: 1px solid white;
+  color: $white;
+  display: inline-block;
+  line-height: 1;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  &:hover {
+    color: $white;
+  }
+}
+
+.kit-card-link {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  &.blue {
+    text-align: right;
+  }
+}
+
+.kit-card-link-text {
+  color: white;
+
+  &:hover, &:focus {
+    color: white;
+  }
+
+  &.blue {
+    color: $primary-color;
+    margin-bottom: $page-spacing;
+
+    &:hover, &:focus {
+      color: $primary-color;
+    }
+
+    @include breakpoint(large only) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.kit-card-visual {
+  position: relative;
+}
+
+.kit-card-visual-hover {
+  left: 0;
+  opacity: 0;
+  padding-top: 3rem;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  z-index: 10;
+}
+
+.kit-card-visual-img {
+  min-width: rem-calc(500);
+  padding: 2rem;
+}
+
+.kit-card-bb {
+  margin-bottom: 2rem;
+  min-width: rem-calc(175);
+}
+
+.kit-card-bb-icon {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: rem-calc(5);
+
+  * {
+    fill: $white;
+  }
+
+  &.blue {
+
+    * {
+      fill: $dark-blue;
+    }
+  }
+}
+
+.kit-card-bb-list {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  vertical-align: top;
+
+  &.blue {
+    color: $dark-blue;
+  }
+}
+
+//card change for smaller screens
+
+@include breakpoint(small only) {
+
+  .kit-card-primary,
+  .kit-card-secondary,
+  .kit-card-link-text {
+    display: none;
+  }
+
+  .kit-card-primary.blue,
+  .kit-card-link-text.blue {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .kit-card-header,
+  .kit-card-sub-header {
+    text-align: center;
+  }
+
+  .kit-card-summary {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .kit-card-visual-img {
+    min-width: 95%;
+  }
+}
+
+.kit-card-mobile-link {
+  display: none;
+}
+@include breakpoint(850 down) {
+  .kit-card-primary,
+  .kit-card-secondary {
+    width: 100%;
+  }
+  .kit-card-mobile-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}

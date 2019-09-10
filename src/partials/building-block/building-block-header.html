@@ -1,0 +1,48 @@
+<div class="building-block-header">
+  <div class="row align-top align-justify">
+    <div class="small-12 medium-7 large-8 columns">
+      <div class="building-block-header-name-section">
+        <h1 class="building-block-title">{{block.name}}</h1>
+        <h3 class="building-block-author">{{#if block.author.github}}<img src="https://github.com/{{block.author.github}}.png?size=30" class="avatar content-right" height="" width="" alt="">{{/if}}By
+          {{#if block.author.foundation-forum}}
+            <a href="https://foundation.zurb.com/forum/{{block.author.foundation-forum}}">{{block.author.name}}</a>
+          {{ else }}
+            {{block.author.name}}
+          {{/if}}
+        </h3>
+      </div>
+      <div class="header-icon-row">
+        {{#each block.major-versions}}
+        <span class="version-badge">F{{this.major}}</span>
+        {{/each}}
+        <div class="version-menu" data-toggle="building-block-header-dropdown">
+        <img src="{{root}}assets/img/icons/three-dots.svg" alt="#" >
+        </div>
+        <div class="dropdown-pane bb-dropdown-pane" id="building-block-header-dropdown" data-dropdown data-hover="true" data-hover-pane="true">
+          {{#each block.major-versions}}
+            <strong>Foundation {{this.major}}</strong>
+            <p>{{this.minors}}</p>
+          {{/each}}
+        </div>
+        <img class="inject-me bb-divider"   src="{{root}}assets/img/icons/vertical-line.svg" alt="">
+        <div class="building-block-tag-container">
+          {{#tag-links block.tags}}
+          <a href="{{../root}}?q={{this.name}}" class="building-block-tag">{{this.name}}</a>
+          {{/tag-links}}
+        </div>
+      </div>
+    </div>
+    <div class="column small-12 medium-5 large-4 bb-actions">
+      <div class="bb-action-icons">
+        <a class="bb-action-icon" data-like="{{block.datakey}}"><img src="{{root}}assets/img/icons/like.svg" alt="" class="inject-me bb-like-button"></a>
+        <a class="bb-action-icon float-right" data-toggle="share-dropdown"> <img src="{{root}}assets/img/icons/share.svg" alt="" class="inject-me bb-share-button"></a>
+        {{> block-share-dropdown block}}
+      </div>
+      <div>
+        <button class="kit-card-primary blue float-right hide-for-small-only" type="button" data-toggle="example-dropdown">Download<div class="arrow-down white"></div></button>
+        {{> block-dropdown block}}
+        <a class="bb-help-link" href="{{root}}how-to.html#use">How do I use This?</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+name: "Breadcrumb Nav with Counter"
+tags:
+  - progress
+  - navigation
+  - nav
+  - breadcrumbs
+  - flexbox
+  - interaction
+  - js
+category: navigation
+description: A nifty breadcrumb navigation using CSS counters to automatically number each step.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded

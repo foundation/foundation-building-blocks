@@ -1,0 +1,19 @@
+name: "Curtain Menu"
+tags:
+  - button
+  - interaction
+  - navigation
+  - nav
+  - menu
+  - flexbox
+  - overlay
+category: navigation
+description: Full screen overlay menu that features some smooth transitions.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

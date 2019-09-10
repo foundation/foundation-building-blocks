@@ -1,0 +1,14 @@
+name: "Basic Card"
+tags:
+  - card
+  - links
+  - content
+category: containers
+description: A simple card with title, description, and links.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  name: ZURB
+grid: float
+containerClass: container-padded row column medium-8

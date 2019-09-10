@@ -1,0 +1,15 @@
+name: Mobile Footer / Bottom Bar
+description: A simple mobile bottom bar with settings and logout
+category: navigation
+tags:
+  - mobile
+  - app
+  - footer
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: 'mobile-container'
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

@@ -1,0 +1,49 @@
+button {
+  cursor: pointer;
+}
+
+.button {
+  border: 0;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+  font-weight: $global-weight-bold;
+
+  &.secondary {
+    background: none;
+    border: 2px solid $dark-blue;
+    box-shadow: none;
+    color: $dark-blue;
+
+    &:hover {
+      background: $light-blue;
+      color: $dark-blue;
+    }
+  }
+}
+
+// Styles for the copy button shown on every code sample
+.docs-code-copy {
+  background: transparent;
+  border: 2px solid $dark-blue;
+  border-radius: 0.1875rem;
+  box-shadow: none;
+  color: $dark-blue;
+  font-size: 1rem;
+  margin: auto 0 0 0;
+  padding: 0.875rem 2.5rem;
+
+  &:focus {
+    background: transparent;
+    color: $dark-blue;
+  }
+
+  &:hover,
+  &.zeroclipboard-is-hover,
+  &:active {
+    background: scale-color($dark-blue, $lightness: -5%);
+    color: $white;
+  }
+
+  @include breakpoint(small only) {
+    display: none;
+  }
+}

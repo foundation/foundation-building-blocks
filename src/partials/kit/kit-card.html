@@ -1,0 +1,23 @@
+<div class="kit-card"{{#if background}}style="background:{{background}};"{{/if}}>
+  <div class="row">
+    <!--header and CTA-->
+    <div class="kit-card-summary column small-12 medium-6">
+      <h2 class="kit-card-header">{{#if name}}{{name}}{{else}}E-Commerce Kit{{/if}}</h2>
+      <p class="kit-card-sub-header">{{#if short_description}}{{short_description}}{{else}}{{description}}{{/if}}</p>
+
+      <button {{#if background}}style="color:{{background}};"{{/if}}class="kit-card-primary" type="button" data-toggle="{{datakey}}-dropdown">Download <div class="arrow-down"{{#if background}} style="border-top: 0.3125rem solid {{background}};"{{/if}}></div></button>
+      {{> kit-dropdown}}
+      <a data-kit-link class="kit-card-secondary" href="{{href}}">See Details</a>
+      <div class="kit-card-link">
+        <a class="kit-card-link-text" target="_blank" href="{{@root.root}}how-to.html#use">How do I use this?</a>
+      </div>
+    </div>
+
+
+    <!--kit card visual and hover effect-->
+    <div class="kit-card-visual column small-12 medium-6">
+      <a href="{{href}}"><img class="kit-card-visual-img" src="{{@root.root}}assets/img/{{#if images.card}}kits/{{datakey}}/{{images.card}}{{else}}images/kit-background-ex.png{{/if}}" alt="kit building blocks image"></a>
+    </div>
+  </div>
+  <a class="kit-card-mobile-link" href="{{href}}"></a>
+</div>

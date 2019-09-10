@@ -1,0 +1,14 @@
+name: 'Testimonial Slider'
+tags:
+  - testimonial
+  - slider
+  - containers
+  - quote
+category: containers
+description: A Responsive slider container for testimonials and quotes from individuals or companies.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers

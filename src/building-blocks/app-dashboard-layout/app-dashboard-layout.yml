@@ -1,0 +1,14 @@
+name: App Dashboard Layout
+description: A responsive layout common for app dashboards, with a top navigation, expandable sidebar, and scrolling content
+category: containers
+tags:
+  - dashboard
+  - app
+  - responsive
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: none
+author:
+  name: Kevin Ball
+  github: kball

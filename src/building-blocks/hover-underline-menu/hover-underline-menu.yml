@@ -1,0 +1,16 @@
+name: "Hover Underline Menu"
+tags:
+  - hover
+  - menu
+  - navigation
+  - nav
+  - animation
+category: navigation
+description: Underline menu items
+versions:
+  - 6.3.1
+author:
+  github: vallyol
+  name: Val Ery
+  'foundation-forum': 16627
+containerClass: row columns

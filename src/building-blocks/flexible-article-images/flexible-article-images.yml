@@ -1,0 +1,17 @@
+name: "Flexible Article with Responsive Images"
+tags:
+  - article
+  - blog
+  - news
+  - images
+  - responsive
+category: media
+description: An article piece with responsive images that can float left, right, and span full-width. On small, they will all be full-width automatically.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  'foundation-forum': 22715
+  name: Christine
+containerClass: none

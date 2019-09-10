@@ -1,0 +1,15 @@
+name: '3-Up Image Block'
+tags:
+  - feature
+  - image
+  - links
+  - layout
+category: media
+description: A simple and useful three image block that stacks on mobile.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Laurel Beyers
+  github: LaurelBCodin
+containerClass: container-padded

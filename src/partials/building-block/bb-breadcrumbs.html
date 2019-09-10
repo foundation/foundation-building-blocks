@@ -1,0 +1,13 @@
+<nav aria-label="You are here:" role="navigation" class="">
+  <ul class="breadcrumbs">
+    <li><a href="{{@root.root}}">Home</a></li>
+    {{#if block}}
+      <li><a href="{{@root.root}}{{block.category}}.html">{{block.category}}</a></li>
+      <li>{{block.name}}</li>
+    {{/if}}
+    {{#if kit}}
+      <li><a href="{{@root.root}}kits.html">Kits</a></li>
+      <li>{{kit.name}}</li>
+    {{/if}}
+  </ul>
+</nav>

@@ -1,0 +1,16 @@
+name: "Top Bar Nav with Centered Logo"
+tags:
+  - nav
+  - navigation
+  - top bar
+  - flexbox
+category: navigation
+description: A responsive Top Bar menu with a centered logo.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

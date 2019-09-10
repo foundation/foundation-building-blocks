@@ -1,0 +1,25 @@
+.sidenav-bb {
+  @include menu-base;
+  @include menu-direction(vertical);
+
+  @include breakpoint(small only) {
+    padding-bottom: 2rem;
+
+    li {
+      justify-content: center;
+      display: flex;
+    }
+  }
+}
+
+[data-magellan] a {
+  color: $primary-color;
+
+  &.active,
+  &.active:focus {
+    background: $primary-color;
+    border-radius: rem-calc(5);
+    color: $white;
+    font-weight: $global-weight-bold;
+  }
+}

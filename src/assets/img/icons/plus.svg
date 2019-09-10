@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.09870427" y="0" width="3.00571646" height="11.203125"></rect>
+        <rect id="path-2" x="4.09870427" y="0" width="3.00571646" height="11.203125"></rect>
+    </defs>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-7" transform="translate(1.000000, 1.000000)">
+                <g id="Rectangle-16">
+                    <use fill="#979797" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="4.59870427" y="0.5" width="2.00571646" height="10.203125"></rect>
+                </g>
+                <g id="Rectangle-16" transform="translate(5.601562, 5.601562) rotate(-270.000000) translate(-5.601562, -5.601562) ">
+                    <use fill="#979797" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="1" x="4.59870427" y="0.5" width="2.00571646" height="10.203125"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

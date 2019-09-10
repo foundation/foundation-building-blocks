@@ -1,0 +1,45 @@
+{{#set-bb-data this}}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta-title}} | Foundation 6</title>
+    <link rel="icon" href="{{root}}assets/img/favicon/foundation-favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    {{#ifequal block.grid 'float'}}
+      <link rel="stylesheet" href="{{root}}building-block/app-float.css?rev=@@hash">
+    {{else}}
+      <link rel="stylesheet" href="{{root}}building-block/app.css?rev=@@hash">
+    {{/ifequal}}
+    <style>
+      body {
+        background-color: #E6E8EB;
+        padding: 16px;
+      }
+
+      @media screen and (min-width: 40em) {
+        body {
+          padding: 20px;
+        }
+      }
+
+      @media screen and (min-width: 64em) {
+        body {
+          padding: 50px;
+        }
+      }
+
+    </style>
+    <link rel="stylesheet" href="{{root}}building-block/{{page}}/layout.css?rev=@@hash">
+    <link rel="stylesheet" href="{{root}}building-block/{{page}}/{{page}}.css?rev=@@hash">
+  </head>
+  <body>
+    {{> body}}
+    <script src="{{root}}assets/js/app.js?rev=@@hash"></script>
+
+    <script src="{{root}}building-block/{{page}}/{{page}}.js"></script>
+  </body>
+</html>
+{{/set-bb-data}}

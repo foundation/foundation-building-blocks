@@ -1,0 +1,21 @@
+name: 'Sticky Shrinking Top Bar Nav'
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+  - sticky
+category: navigation
+description: A topbar navigation that is sticky and shrinks to take up less space when sticky.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

@@ -1,0 +1,16 @@
+name: 'User Info Card'
+tags:
+  - content
+  - profile
+  - card
+  - blog
+category: containers
+description: This handy card dsisplays a user profile image, name, details and social links. Great for blogs, articles, or dashboards. You can rearrange the individual sections to get different results as needed.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: ibnHamdan
+  github: ibnHamdan
+  twitter: ibnHamdan
+containerClass: none

@@ -1,0 +1,20 @@
+name: 'Simple Content Filter'
+tags:
+  - filter
+  - button
+  - button group
+  - grid
+  - block grid
+  - interaction
+  - js
+  - flexbox
+category: control
+description: A simple content filter allowing you to show or hide items based on the class you assign to them.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded

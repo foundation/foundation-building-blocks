@@ -1,0 +1,14 @@
+name: 'Responsive Blog Footer'
+tags:
+  - menu
+  - forms
+  - footer
+  - flexbox
+category: containers
+description: A responsive footer that has an input form for a mailing list, an "About Me" section, and search tag area.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers

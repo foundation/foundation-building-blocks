@@ -1,0 +1,59 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{#if meta-title}}{{meta-title}}{{else}}{{get-nav-data page 'title' navigation}}{{/if}} | Foundation 6</title>
+    <link rel="icon" href="{{root}}assets/img/favicon/foundation-favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css?rev=@@hash">
+    <meta name="bbfile" content="{{root}}data/building-blocks.json">
+    <meta name="kitfile" content="{{root}}data/kits.json">
+    <meta name="datafile" content="{{root}}data/{{datafile}}">
+    <meta name="rootpath" content="{{root}}">
+    <meta name="datakey" content="{{datakey}}">
+  </head>
+  <body>
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      {{> offcanvas-menulists}}
+    </div>
+
+    <div class="off-canvas-content background-alt" data-off-canvas-content>
+      {{> info-banner}}
+      {{> global-nav-mobile}}
+      {{> global-navigation}}
+
+      {{> hero}}
+      {{> filter-nav}}
+      {{> filter-dropdowns}}
+      <div class="page-container">
+        <div id="main-results-container">
+          <div class="row small-up-1 medium-up-2 large-up-3 card-container">
+            {{#each blocks}}
+              {{> building-block-card-with-column this}}
+            {{/each}}
+          </div>
+          {{> pagination}}
+        </div>
+        <div id="search-results-container">
+          <div class="kit-container"></div>
+          <div class="row small-up-1 medium-up-2 large-up-3 card-container">
+          </div>
+        </div>
+        {{> preview-modal}}
+        {{#if show_ad}}
+          {{> course-callout-alert}}
+        {{/if}}
+      </div>
+      {{> footer}}
+    </div>
+
+    {{{partial-as-script 'building-block-card' 'building-block/building-block-card-with-column.html'}}}
+    {{{partial-as-script 'kit-card' 'kit/kit-card-with-column.html'}}}
+    <script src="{{root}}assets/js/app.js?rev=@@hash"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+name: "Card Reveal"
+tags:
+  - card
+  - content
+  - js
+  - show hide
+  - interaction
+category: containers
+description: A card with title, description and a toggle button to reveal more content that overlay's the card.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: bryananthonylewis
+  name: Bryan Lewis
+  twitter: bryanlewis
+containerClass: none

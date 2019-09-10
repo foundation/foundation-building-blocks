@@ -1,0 +1,14 @@
+name: "Dashboard Number Card"
+tags:
+  - card
+  - dashboard
+  - data
+category: containers
+description: A simple card for displaying data with positive and negative indicators
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: kball
+  name: Kevin Ball
+

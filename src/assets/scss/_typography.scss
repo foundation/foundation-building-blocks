@@ -1,0 +1,53 @@
+// ZURB logo font
+@font-face {
+  font-family: 'zurb-logo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/zurb-webfont.eot'),
+  url('/assets/fonts/zurb-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/zurb-webfont.svg') format('svg'),
+  url('/assets/fonts/zurb-webfont.ttf') format('truetype'),
+  url('/assets/fonts/zurb-webfont.woff') format('woff');
+}
+
+@mixin proxima-nova {
+  font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin proxima-nova-condensed {
+  font-family: 'Proxima Nova Condensed', 'proxima-nova-condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: font-url('OpenSans-Regular-webfont.eot'),
+  font-url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('OpenSans-Regular-webfont.woff') format('woff'),
+  font-url('OpenSans-Regular-webfont.ttf') format('truetype'),
+  font-url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: font-url('OpenSans-Light-webfont.eot'),
+  font-url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('OpenSans-Light-webfont.woff') format('woff'),
+  font-url('OpenSans-Light-webfont.ttf') format('truetype'),
+  font-url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: font-url('OpenSans-Semibold-webfont.eot'),
+  font-url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('OpenSans-Semibold-webfont.woff') format('woff'),
+  font-url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+  font-url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+}
+

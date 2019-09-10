@@ -1,0 +1,16 @@
+name: "Read more content button/link"
+tags:
+  - toggler
+  - js
+  - content
+  - show hide
+category: control
+description: Using Foundation's toggler to show more content allows you to tap into Motion UI animations and give your components some flair.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row medium-7 large-5 align-center columns container-padded

@@ -1,0 +1,15 @@
+name: "Translucent Form Overlay"
+tags:
+  - translucent
+  - hero
+  - form
+  - search
+category: forms
+description: "A translucent form overlay for placing on top of a hero image or section."
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: kball
+  'foundation-forum': 17824
+  name: Kevin

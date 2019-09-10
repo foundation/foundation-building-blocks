@@ -1,0 +1,155 @@
+.footer-nav {
+  @include flex-grid-row;
+  align-items: center;
+  background-color: $topbar-bg;
+  padding: 2rem;
+  width: 100%;
+  justify-content: center;
+
+  @include breakpoint(small only) {
+    flex-direction: column;
+  }
+}
+
+.footer-nav-left,
+.footer-nav-right {
+  @include flex-grid-column(shrink);
+  color: $white;
+
+  a {
+    color: $white;
+
+    &:hover,
+    &:focus {
+      color: darken($white, 10%);
+    }
+
+    @include breakpoint(small only) {
+      font-size: 1rem;
+    }
+  }
+
+  @include breakpoint(small only) {
+    @include flex-grid-column(expand);
+  }
+}
+
+.footer-nav-left {
+  @media screen and (min-width: 40em) and (max-width: 75.125em) {
+    order: 3;
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  @include breakpoint(small only) {
+    order: 3;
+  }
+}
+
+.footer-nav-right {
+  @media screen and (min-width: 40em) and (max-width: 75.125em) {
+    order: 2;
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  @include breakpoint(small only) {
+    margin-bottom: 1rem;
+  }
+}
+
+.footer-copyright {
+  color: darken($white, 20%);
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.footer-nav-center {
+  @include flex-grid-column;
+
+  .footer-nav-menu-item {
+    @media screen and (min-width: 40em) and (max-width: 46.25em) {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media screen and (min-width: 40em) and (max-width: 75.125em) {
+    display: flex;
+    flex: 1 0 auto;
+    order: 1;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.footer-nav-menu {
+  list-style: none;
+  margin-bottom: 0;
+  text-align: center;
+
+  @include breakpoint(small only) {
+    margin-left: 0;
+  }
+}
+
+.footer-nav-menu-icons {
+  list-style: none;
+  margin-bottom: 0;
+  text-align: center;
+
+  @include breakpoint(small only) {
+    margin-left: 0;
+    display: flex;
+    margin-top: 1rem;
+
+    .footer-nav-menu-item {
+      margin-right: 2.5rem;
+    }
+  }
+}
+
+.footer-nav-menu-item {
+  display: inline-block;
+  margin-right: 2.5rem;
+  font-size: 1.25rem;
+  padding: 0.4rem 0;
+
+  a {
+    color: $white;
+    transition: color 0.3s ease;
+
+    &:hover,
+    &:focus {
+      color: darken($white, 0%);
+      transition: color 0.3s ease;
+    }
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  @include breakpoint(small only) {
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+
+    &.social {
+      display: inline-block;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    &.cow-palace-menu {
+      margin: 0 auto;
+      top: -2px;
+    }
+  }
+}
+
+.footer-social-icon {
+  height: 1.25rem;
+  margin: 0;
+  width: 1.25rem;
+}

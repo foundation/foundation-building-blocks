@@ -1,0 +1,16 @@
+name: "Promo Hero"
+tags:
+  - ecommerce
+  - hero
+  - product
+  - callout
+  - promo
+category: container
+description: Promo Hero for an eCommerce site that can be used to highlight new products or deals.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: kwhchu
+  name: Kevin
+containerClass: none

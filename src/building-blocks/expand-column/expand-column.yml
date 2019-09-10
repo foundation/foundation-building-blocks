@@ -1,0 +1,17 @@
+name: 'Expanding Hover Columns'
+tags:
+  - grid
+  - image
+  - hover
+  - interaction
+  - flexbox
+category: containers
+description: Hover the columns to expand them and reveal content. It uses flexbox to grow shrink as needed and position the text.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

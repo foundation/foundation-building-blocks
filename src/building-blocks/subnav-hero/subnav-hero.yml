@@ -1,0 +1,18 @@
+name: 'Hero Subnav'
+tags:
+  - navigation
+  - nav
+  - menu
+  - button
+  - hero
+  - links
+category: navigation
+description: A secondary navigation to switch between pages in a category.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

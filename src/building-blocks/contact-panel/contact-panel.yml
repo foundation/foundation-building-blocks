@@ -1,0 +1,21 @@
+name: 'Popup Contact Form'
+tags:
+  - form
+  - contact
+  - js
+  - interaction
+  - show hide
+category: forms
+description: A nice contact form that is fixed to the bottom of the viewport and slides up when clicked.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

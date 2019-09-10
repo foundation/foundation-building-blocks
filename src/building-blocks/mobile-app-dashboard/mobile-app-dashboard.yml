@@ -1,0 +1,18 @@
+name: "Mobile App Dashboard"
+tags:
+  - button
+  - mobile
+  - dashboard
+  - icons
+  - flexbox
+  - header
+category: control
+description: A mobile app dashboard with large easy to click buttons.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column medium-5 align-center

@@ -1,0 +1,21 @@
+name: "Product Feature Section"
+tags:
+  - feature
+  - content
+  - icons
+  - product
+  - layout
+  - grid
+  - flexbox
+  - ecommerce
+  - sales
+category: containers
+description: Feature sections to show off or detail how awesome your product is. On smaller screens, icons shift above the text to fit nicely.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

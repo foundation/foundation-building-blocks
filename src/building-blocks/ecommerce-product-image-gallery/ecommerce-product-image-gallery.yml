@@ -1,0 +1,16 @@
+name: "Product Image Gallery"
+tags:
+  - ecommerce
+  - product
+  - image
+  - thumbnails
+  - gallery
+category: media
+description: Product Image Gallery for an eCommerce site to show multiple images of a product.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: kwhchu
+  name: Kevin
+containerClass: none

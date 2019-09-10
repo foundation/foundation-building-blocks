@@ -1,0 +1,19 @@
+name: 'Animated Expanding Search Form'
+tags:
+  - animation
+  - search
+  - input
+  - form
+category: forms
+description: An Animated Search Form that expands to full-width on focus.
+versions:
+  - 6.4.3
+  - 6.4.2
+  - 6.4.1
+  - 6.4.0
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

@@ -1,0 +1,20 @@
+name: 'eCommerce Loading Button'
+tags:
+  - button
+  - ecommerce
+  - loader
+  - notification
+  - alert
+  - interaction
+  - icons
+  - callout
+  - js
+category: media
+description: An eCommerce loading button with submit and process order functionality. This includes variants of loading icons on order process.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

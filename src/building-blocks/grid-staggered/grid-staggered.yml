@@ -1,0 +1,15 @@
+name: "CSS Grid - Staggered Grid"
+tags:
+  - css grid
+  - layout
+  - grid
+  - hover
+  - masonry
+category: containers
+description: A masonry style staggered grid layout.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: jkfcheng
+  name: John Cheng

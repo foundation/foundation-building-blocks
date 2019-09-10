@@ -1,0 +1,18 @@
+name: 'Featured Articles with Side Links'
+tags:
+  - news
+  - articles
+  - side-links
+  - blog
+  - tags
+  - flexbox
+category: media
+description: A responsive featured articles area to showcase many links at once.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: canterberrie
+  'foundation-forum': 22715
+  name: Christine Siu
+containerClass: none

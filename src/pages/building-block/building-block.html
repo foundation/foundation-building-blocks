@@ -1,0 +1,45 @@
+---
+meta-title: Header and Subnav
+post-date: 3/12/2019
+title: A library of Foundation UI Components
+subtitle: A great way to link multiple related pages from a landing page. Just move the .is-active class to signify the page the user is currently on.
+views: 6
+likes: 6
+layout: static
+building-block-description: Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.
+---
+
+<div class="row columns">
+  {{> bb-breadcrumbs}}
+</div>
+
+{{> building-block-header}}
+
+{{> building-block-preview}}
+
+{{> building-block-code}}
+<div class="page-background-alt building-block-related">
+  <div class="row column building-block-related-header">
+    <h2 class="bb-related-title">Similar Containers</h2>
+    <a class="bb-related-link" href="#">See More</a>
+  </div>
+  <div class="row scroll-container medium-up-2 large-up-3">
+    {{#repeat 3}}
+    <div class="column column-block card-block scroll-x">
+      {{> building-block-card}}
+    </div>
+    {{/repeat}}
+  </div>
+
+  <div class="row column building-block-related-header">
+    <h2 class="bb-related-title">Users Also Searched</h2>
+    <a class="bb-related-link" href="#">See More</a>
+  </div>
+  <div class="row scroll-container small-up-1 medium-up-2 large-up-3">
+    {{#repeat 3}}
+    <div class="column column-block card-block scroll-x">
+      {{> building-block-card}}
+    </div>
+    {{/repeat}}
+  </div>
+</div>

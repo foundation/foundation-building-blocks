@@ -1,0 +1,14 @@
+name: "Sticky Social Bar"
+tags:
+  - share
+  - social
+  - sticky
+  - position
+category: navigation
+description: Full CSS only Sticky Social Bar that sticks to the page as someone scrolls through it.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: IamManchanda
+  name: Harry Manchanda

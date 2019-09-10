@@ -1,0 +1,14 @@
+name: 'Responsive Featured Section'
+tags:
+  - links
+  - menu
+  - feature
+  - flexbox
+category: containers
+description: A responsive "feature" section for displaying logos, thumbnails, or other content using Flexbox.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers

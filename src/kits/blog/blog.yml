@@ -1,0 +1,21 @@
+name: Blog
+short_description: Build a beautiful blog layout and share your thoughts in style.
+description: The Blog Kit is stocked with all of the components you need to quickly build out a beautiful blog layout. We’ve included a sticky top bar navigation, beautiful parallax hero section, responsive footer,  three different card-based approaches for displaying blog posts, two different pagination options, and an expandable read-more option.
+background: '#207DAB'
+images:
+  'hero': 'blog-kit.jpg'
+  'card': 'blog-kit.jpg'
+blocks:
+  - responsive-blog-post
+  - responsive-blog-footer
+  - tag-cloud
+  - responsive-nav-social
+  - pagination-pointed
+  - pagination-responsive-numbers
+  - image-hover-wrapper
+  - responsive-social-media-section
+  - card-flex-article
+  - read-more
+  - featured-blog-posts-panel
+  - quote-inline
+  - neat-article-container

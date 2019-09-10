@@ -1,0 +1,21 @@
+---
+meta-title: Kits
+title: Building Block Kits
+subtitle: These kits can be downloaded to jumpstart any project!
+cta: Call to action
+hero-class: hero-building-blocks
+hero: true
+filter-nav: true
+filter-dropdowns: false
+layout: static
+datakey: kits
+---
+
+{{#each kits}}
+<div class="row column">
+  <!--kit card-->
+  {{> kit-card this}}
+  <!--end kit card-->
+</div>
+{{/each}}
+

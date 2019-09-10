@@ -1,0 +1,15 @@
+name: "Circle Graph"
+tags:
+  - graph
+  - circle
+  - data
+  - viz
+category: status
+description: A SCSS based circle graph
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: kball
+  name: Kevin Ball
+containerClass: "flex-container align-center container-padded"

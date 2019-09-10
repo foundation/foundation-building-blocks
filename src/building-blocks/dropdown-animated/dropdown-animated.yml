@@ -1,0 +1,23 @@
+name: 'Animated Dropdown'
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+  - js
+  - dropdown menu
+  - animation
+category: navigation
+description: A top bar navigation with a dropdown with subtle fade in/out animation.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column align-center

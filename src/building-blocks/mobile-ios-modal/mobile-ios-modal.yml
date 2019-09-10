@@ -1,0 +1,18 @@
+name: "Mobile App Modal"
+tags:
+  - interaction
+  - reveal
+  - modal
+  - popup
+  - alert
+  - flexbox
+category: status
+description: A mobile app modal that is inspired by IOS modals.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

@@ -1,0 +1,21 @@
+name: 'Star Rating Block'
+tags:
+  - form
+  - input
+  - rating
+  - javascript
+  - svg
+category: form
+description: Star rating widget you can use on your projects.
+versions:
+  - 6.4.3
+  - 6.4.2
+  - 6.4.1
+  - 6.4.0
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column medium-7 align-center container-padded

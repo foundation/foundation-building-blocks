@@ -1,0 +1,23 @@
+name: Neat Article container
+description: A neat Article Container that includes header, social sharing, image and content area.
+category: media
+tags:
+  - article
+  - sticky
+  - hero
+  - header
+  - news
+  - blog
+  - social
+  - icons
+  - content
+  - container
+  - flexbox
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: none
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

@@ -1,0 +1,38 @@
+{{#if paginate}}
+<ul class="pagination text-center" role="navigation" aria-label="Pagination">
+  {{#ifequal currentPage 1}}
+    <li class="pagination-previous disabled"><img src="{{root}}assets/img/icons/pagination-previous.svg" alt="previous" class="inject-me pagination-icon"></li>
+    <li class="current bb"><span class="show-for-sr">You're on page</span> {{currentPage}}</li>
+  {{else}}
+    <li class="pagination-previous">
+      <a href="{{pagination-link this -1}}" aria-label="previous page">
+        <img src="{{root}}assets/img/icons/pagination-previous.svg" alt="previous" class="inject-me pagination-icon">
+      </a>
+    </li>
+    {{#first-pages currentPage}}
+      <li><a href="{{pagination-link ../this null pageNum}}" aria-label="Page {{pageNum}}">{{pageNum}}</a></li>
+    {{/first-pages}}
+    {{#if-show-ellipse currentPage numPages  -1}}
+      <li><img src="{{root}}assets/img/icons/pagination-ellipsis.svg" alt="" aria-hidden="true"></li>
+    {{/if-show-ellipse}}
+    {{#previous-pages currentPage}}
+      <li><a href="{{pagination-link ../this null pageNum}}" aria-label="Page {{pageNum}}">{{pageNum}}</a></li>
+    {{/previous-pages}}
+    <li class="current bb"><span class="show-for-sr">You're on page</span> {{currentPage}}</li>
+  {{/ifequal}}
+  {{#next-pages currentPage numPages}}
+    <li><a href="{{pagination-link ../this null pageNum}}" aria-label="Page {{pageNum}}">{{pageNum}}</a></li>
+  {{/next-pages}}
+  {{#if-show-ellipse currentPage numPages  1}}
+    <li><img src="{{root}}assets/img/icons/pagination-ellipsis.svg" alt="" aria-hidden="true"></li>
+  {{/if-show-ellipse}}
+  {{#end-pages currentPage numPages}}
+    <li><a href="{{pagination-link ../this null pageNum}}" aria-label="Page {{pageNum}}">{{pageNum}}</a></li>
+  {{/end-pages}}
+  {{#ifequal currentPage numPages}}
+      <li class="pagination-next disabled"><img src="{{root}}assets/img/icons/pagination-next.svg" alt="" class="inject-me pagination-icon"></li>
+  {{else}}
+    <li class="pagination-next"><a href="{{pagination-link this 1}}" aria-label="Next page"><img src="{{root}}assets/img/icons/pagination-next.svg" alt="" class="inject-me pagination-icon"></a></li>
+  {{/ifequal}}
+</ul>
+{{/if}}

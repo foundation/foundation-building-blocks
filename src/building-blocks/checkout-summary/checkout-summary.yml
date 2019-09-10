@@ -1,0 +1,17 @@
+name: "Checkout Summary"
+tags:
+  - checkout
+  - ecommerce
+  - shopping
+  - cart
+  - price
+  - order
+category: containers
+description: A simple checkout summary with a preview of the items in your order.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass: row column container-padded

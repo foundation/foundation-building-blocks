@@ -1,0 +1,14 @@
+name: "Expandable Searchbar"
+tags:
+  - search
+  - form
+  - js
+category: forms
+description: A search bar with icon that expands on click.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass:

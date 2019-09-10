@@ -1,0 +1,27 @@
+<div class="hover-wrapper">
+  <a href="{{@root.root}}{{href}}" class="card-imghover-overlay">
+    <div class="card card-building-block">
+      <div class="card-img" style="background-image: url({{@root.root}}{{thumb}});">
+        <div class="card-category">{{#if category}}{{category}}{{else}}Category{{/if}}</div>
+      </div>
+      <div class="card-divider align-justify">
+        <h3 class="card-title">{{#if name}}{{name}}{{else}}Showcase Card{{/if}}</h3>
+        <span class="version-badge">{{#if badge}}{{else}}F6{{/if}}</span>
+      </div>
+      <div class="card-divider align-justify">
+        <div>
+          {{#if author.github}}
+          <img src="https://github.com/{{author.github}}.png?size=30" class="avatar content-right" height="" width="" alt="">
+          {{else}}
+          <img src="https://placehold.it/30" class="avatar content-right" height="" width="" alt="">
+          {{/if}}
+          <span class="card-author">by {{#if author.name}}{{author.name}}{{else}}Jack Bauer{{/if}}</span>
+        </div>
+        <div class="card-actions">
+          <!-- <div class="card-views"><img src="{{@root.root}}assets/img/icons/bb-card-view.svg" class="inject-me bb-card-social-icon" height="" width="" alt=""><span>98</span></div> -->
+          <div><img src="{{@root.root}}assets/img/icons/bb-card-like.svg" class="inject-me bb-card-social-icon" height="" width="" alt=""><span data-likes="{{datakey}}"></span></div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

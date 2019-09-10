@@ -1,0 +1,17 @@
+name: 'Top Bar Navigation'
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+category: navigation
+description: A responsive navigation with dropdowns on medium and larger screens and a drilldown menu on small screens. Mimics the Foundation 5 Top Bar component but coded in Foundation 6.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+grid: float
+containerClass: none

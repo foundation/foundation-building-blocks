@@ -1,0 +1,12 @@
+name: 'Responsive Portfolio Resume'
+tags:
+  - feature
+  - Portfolio
+category: containers
+description: A Responsive Portfolio Resume section for anyone's personal website or this layout could be used for featured information.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers

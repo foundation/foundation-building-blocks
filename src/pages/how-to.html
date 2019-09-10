@@ -1,0 +1,462 @@
+---
+meta-title: FAQ
+title: How To Guide
+subtitle: How to use and submit Building Blocks!
+cta: Call to action
+hero-class: hero-building-blocks
+hero: true
+filter-nav: false
+filter-dropdowns: false
+layout: static
+---
+
+<!--sticky menu-->
+<div class="row medium-unstack">
+
+  <div class="column medium-3 large-3" data-sticky-container>
+    <div class="sticky" data-sticky data-margin-top='2' data-top-anchor="hero-bb:bottom" data-btm-anchor="footer:top">
+      <aside>
+        <ul class="sidenav-bb" data-magellan data-deep-linking="true" >
+          <li><a class="how-to-menu-item" href="#what-is">What is a Building Block?</a></li>
+          <li><a href="#use">How to use a Building Block</a></li>
+          <!-- <li><a href="#need">What Do I Need to Submit a Building Block?</a></li> -->
+          <li><a href="#submit">Submitting your Building Block</a></li>
+          <!-- <li><a href="#review">Review Process</a></li>
+          <li><a href="#containerClass">Container Classes</a></li>
+          <li><a href="#layout">Preview Layouts</a></li>
+          <li><a href="#images">Preview Image</a></li>
+          <li><a href="#classNaming">Class Naming</a></li>
+          <li><a href="#tags">Tags</a></li> -->
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <!--what is a building block-->
+  <div class="column medium-9 large-7">
+
+    <section id="what-is" data-magellan-target="what-is">
+      <h2 class="how-to-header">What is a Building Block?</h2>
+
+      <p class="how-to-paragraph">Building Blocks are coded UI components designed to be dropped into Foundation projects. Many Building Blocks are based on tried and true patterns that we’ve used in our client projects over the last five years at ZURB using Foundation. We also have community Building Blocks too!</p>
+
+      <p class="how-to-small-title">Building Blocks are:</p>
+      <ul class="how-to-paragraph">
+        <li>HTML, CSS, and JS snippets that work in any standard Foundation project</li>
+        <li>Lightly styled components</li>
+        <li>Easy to extend or customize</li>
+        <li>Common solutions to layout or component challenges that are not core to the Framework</li>
+      </ul>
+
+      <p class="how-to-small-title">Building Blocks are NOT:</p>
+      <ul class="how-to-paragraph">
+        <li>Templates</li>
+        <li>Themes</li>
+        <li>Overly stylized</li>
+        <li>Code that does not integrate with Foundation</li>
+      </ul>
+
+      <p class="how-to-lead">In short: The intent of Building Blocks are to solve common patterns, scaffold faster, and integrate with your existing styles right out of the box.</p>
+
+      <hr class="how-to-line">
+    </section>
+
+<!--how to use-->
+
+    <section id="use" data-magellan-target="use">
+      <h2 class="how-to-header">How To Use a Building Block</h2>
+
+      <div class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/adLpmsU9v2g" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <p class="how-to-paragraph">Building Blocks are easy to use in your projects whether you’re using a CSS version or the powerful ZURB Stack. Below, we’ve outlined how to get a Building Block into your project in a snap and build faster.</p>
+
+      <h4 id="cli" class="how-to-subheader">(Option 1) Foundation CLI Install</h4>
+
+      <p class="how-to-paragraph">This is where a powerful workflow like the ZURB Stack really ups your game. You want to add a Building Block to your project to show an interaction or build a page in record time. Imagine if you could add a Building Block or even an entire kit of Building Blocks to your site with a single command. You don’t have to imagine because an update to the Foundation CLI allows you to do just that.</p>
+
+      <p class="how-to-small-title">Foundation’s CLI install will:</p>
+      <ul class="how-to-paragraph">
+        <li><strong>Create you a Panini HTML partial</strong> with the Building Block’s HTML</li>
+        <li><strong>Create you a SCSS partial</strong> with the Building Block’s SCSS and also add the @import for you in your app.scss file.</li>
+        <li><strong>Create a JS file</strong> with the Building Block’s JS and link it up in the config.yml</li>
+      </ul>
+
+      <p class="how-to-paragraph">Bam! Add your Panini partial in your page or layout and now you’re cookin’.</p>
+
+      <p class="how-to-paragraph">In your terminal, make sure you’re in you ZURB Stack project and have the Foundation CLI installed.</p>
+
+      <p class="how-to-small-title">The available commands are:</p>
+      <ul class="how-to-paragraph">
+        <li><code>foundation blocks list</code> - List out the names of all the available Building Blocks. It’s a lot!</li>
+        <li><code>foundation blocks install [blockname]</code> - installs an individual Building Block</li>
+        <li><code>foundation kits list</code> -  List out the names of all the available Building Block kits.</li>
+        <li><code>foundation kits install [kitname]</code> - installs all the Building Blocks in the kit</li>
+      </ul>
+
+      <p class="how-to-lead">You'll need the latest version of the Foundation CLI (Foundation CLI version 2.2.1) to access these commands. See upgrade instructions in the accordion below.</p>
+
+      <p class="how-to-paragraph">Not sure what version Foundation CLI you have? Run:</p>
+
+      <div class="docs-code">
+        <pre><code class="bash">foundation -v</code></pre>
+      </div>
+
+      <ul class="accordion" data-accordion data-allow-all-closed="true">
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">Installing the Foundation CLI</a>
+          <div class="accordion-content" data-tab-content>
+            <p class="lead">Need help installing the Foundation CLI? We've put together some tutorials to get you going.</p>
+            <a class="feature-block-link" href="https://youtu.be/rQguHjGzFEw?list=PLJVWPVPk_D_0-LDRu8k29w-7ktRk_dJ5n" target="_blank">
+              <img class="feature-block-link-img" src="{{root}}assets/img/images/cli-lesson-thumb.png" class="" height="" width="" alt="">
+              <h5 class="how-to-small-title">Installing the Foundation CLI to Automate Sass Projects</h5>
+            </a>
+            <a class="feature-block-link" href="https://foundation.zurb.com/learn/install-foundation-6-sass-on-windows.html" target="_blank">
+              <img class="feature-block-link-img" src="https://foundation.zurb.com/assets/img/develop/tuts-sass-windows-jamesstone.png" class="" height="" width="" alt="">
+              <h5 class="how-to-small-title">Installing Foundation CLI on Windows</h5>
+            </a>
+            <a class="feature-block-link" href="https://foundation.zurb.com/sites/docs/installation.html" target="_blank">
+              <img class="feature-block-link-img" src="{{root}}assets/img/images/docs-thumb.png" class="" height="" width="" alt="">
+              <h5 class="how-to-small-title">Foundation Docs: CLI Installation</h5>
+            </a>
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">How to update the Foundation CLI</a>
+          <div class="accordion-content" data-tab-content>
+            <p class="lead">If you already have the Foundation CLI installed, you'll want to upgrade to the latest one to get the Building Block CLI feature.</p>
+
+            <p><strong>Step one:</strong> Uninstall the old Foundation CLI.</p>
+            <div class="docs-code">
+              <pre><code class="bash">npm uninstall -g foundation-cli</code></pre>
+            </div>
+            <p><strong>Step two:</strong> Install the new Foundation CLI.</p>
+            <div class="docs-code">
+              <pre><code class="bash">npm install -g foundation-cli</code></pre>
+            </div>
+
+            <p>That's it!</p>
+
+            <p>** Depending on how your machine is configured, the command may fail with an EACCESS error. To get around this, run the command with sudo at the beginning:
+            <div class="docs-code">
+              <pre><code class="bash">sudo npm install --global foundation-cli</code></pre>
+            </div>
+            </p>
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">ZURB Stack and Panini</a>
+          <div class="accordion-content" data-tab-content>
+            <a class="feature-block-link" href="https://youtu.be/t_ekdBMj4cc?list=PLJVWPVPk_D_3A4OBvLtsrcjL7gs1QEWLW" target="_blank">
+              <img class="feature-block-link-img" src="{{root}}assets/img/images/panini-lesson-thumb.png" class="" height="" width="" alt="">
+              <h5 class="how-to-small-title">Intro to Foundation’s Panini Handlebars Templating Engine</h5>
+            </a>
+            <a class="feature-block-link" href="https://youtu.be/3Uj74uJ3GSQ?list=PLJVWPVPk_D_0-LDRu8k29w-7ktRk_dJ5n" target="_blank">
+              <img class="feature-block-link-img" src="{{root}}assets/img/images/zurbstack-lesson-thumb.png" class="" height="" width="" alt="">
+              <h5 class="how-to-small-title">Foundation Starter Projects - ZURB Stack</h5>
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <h4 id="copy" class="how-to-subheader">(Option 2) Copy it</h4>
+
+      <p class="how-to-paragraph">Like a Building Block? You can copy the HTML and CSS/SCSS and JS (if applicable) from the Building Block detail page. You’ll see a responsive preview and description at the top of the page. Below the preview you’ll find the code for the component.</p>
+
+      <p class="how-to-paragraph">The HTML, CSS, and JS toggles let you focus on one section at a time if you’d like.</p>
+
+      <p><img src="{{root}}assets/img/images/top-section.png" class="" height="" width="" alt=""></p>
+
+      <p class="how-to-paragraph">You can copy the the code from each code container using the handy copy button.</p>
+
+      <p><img src="{{root}}assets/img/images/copy-section.png" class="" height="" width="" alt=""></p>
+
+      <p class="how-to-paragraph">If you are using CSS vs SCSS, you can toggle to the compiled CSS using this handy toggle:</p>
+
+      <p><img src="{{root}}assets/img/images/css-section.png" class="" height="" width="" alt=""></p>
+
+      <p class="how-to-paragraph">If you’re using the CSS version of Foundation, it’s best to add the CSS to your app.css file that is included with the downloaded Foundation CSS project. You can make any style overrides from there.</p>
+
+      <p class="how-to-paragraph">If you’re using the ZURB Stack Sass version, a custom SCSS partial is the best place to add the Building Block’s SCSS. The JS can be added to app.js. But if you’re a fan of optimization, we suggest you use the Foundation CLI install to do all this automatically for you. It’s rad!</p>
+
+      <h4 class="how-to-subheader" id="download-individual" >(Option 3) Download an individual Building Block</h4>
+
+      <p class="how-to-paragraph">You can can download the files needed for the Building Block. Click the download button and you’ll get:</p>
+
+      <ul class="how-to-paragraph">
+        <li>Individual HTML files</li>
+        <li>Individual CSS files for each</li>
+        <li>Individual SCSS files in case you want to manually add them to a Sass project</li>
+        <li>Individual JS files (if applicable)</li>
+      </ul>
+
+      <h4 class="how-to-subheader" id="download-kit" >(Option 4) Download a Building Block Kit</h4>
+
+      <p class="how-to-paragraph">Looking to start with a Building Block kit? Kits are large collections of Building Blocks that are matched to each other for a specific type of Site, App, or use case. To save you time over the copy/paste method of individual Building Blocks, you can download a zip file of the kit. For each Building Block, it will come with:</p>
+
+      <ul class="how-to-paragraph">
+        <li>Individual HTML files</li>
+        <li>Individual CSS files for each</li>
+        <li>Individual SCSS files in case you want to manually add them to a Sass project</li>
+        <li>Individual JS files (if applicable)</li>
+      </ul>
+
+      <p class="how-to-paragraph">Again, if you’re using the ZURB Stack, the Foundation CLI can do this for you.</p>
+
+      <h4 class="how-to-subheader" id="dependencies" >Dependencies</h4>
+
+      <p class="how-to-paragraph">Building Blocks are made to drop into any Foundation project and work. Therefore Foundation is a dependency (needs it to work as expected).</p>
+
+      <p class="how-to-paragraph">Since Foundation’s interactive components are build using jQuery, jQuery is a dependency. Every Foundation download or Install comes with this. jQuery is not required for CSS/SCSS only components or non-js components in Foundation.</p>
+
+      <p class="how-to-paragraph">Some Building Blocks use icon fonts to make them look nicer or convey intention. You can use the same icon fonts by adding them to your project.</p>
+
+      <p class="how-to-small-title">You can download FontAwesome icons here:<br>
+      <a href="http://fontawesome.io/" target="_blank">http://fontawesome.io/</a></p>
+
+      <p class="how-to-small-title">Or add this CDN to the head of your pages or layout:</p>
+
+      <div class="code-scroller">
+        <pre><code>&lt;link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"&gt;</code></pre>
+      </div>
+    </section>
+
+    <hr class="how-to-line">
+    <!--submitting-->
+
+    <section id="submit" data-magellan-target="submit" >
+      <h2 class="how-to-header">How do I submit a building block?</h2>
+
+      <div class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PKr0ItjFeX0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <p class="how-to-paragraph">So you want to build a Building Block? Well fear not! You can get in on the action too and get your work featured! We’ve put together a simple guide to submitting a Building Block. Once it’s submitted, we’ll promote your awesomeness to the greater Foundation community because you rock!</p>
+
+      <p class="how-to-paragraph">The Building Blocks site is open source just like Foundation, meaning anyone can contribute to it. It’s built on the same Node based build system the ZURB Stack is built on. Submissions are made through GitHub, with pull requests.</p>
+
+      <p class="how-to-small-title">You’ll need:</p>
+
+      <ul class="how-to-paragraph">
+        <li>A sweet Building Block idea</li>
+        <li>A GitHub account</li>
+      </ul>
+
+      <p class="how-to-small-title">Your computer needs:</p>
+
+      <ul class="how-to-paragraph">
+        <li>NodeJS (6.10.1)</li>
+        <li>Clone or download the repo from here: https://github.com/zurb/building-blocks</li>
+      </ul>
+
+
+      <p class="how-to-paragraph">Using your terminal, change directory into the <code>building-blocks</code> project and run:</p>
+
+      <div class="docs-code">
+        <pre><code class="bash">cd building-blocks</code></pre>
+      </div>
+
+      <p class="how-to-paragraph">Then,</p>
+
+      <div class="docs-code">
+        <pre><code class="bash">npm install</code></pre>
+      </div>
+
+      <div class="docs-code">
+        <pre><code class="bash">bower install</code></pre>
+      </div>
+
+      <p class="how-to-paragraph">Once the install is complete, in the project directory, you can start the project and have it watch for changes. Run:</p>
+
+      <div class="docs-code">
+        <pre><code class="bash">npm start</code></pre>
+      </div>
+
+      <p class="how-to-paragraph">This will start the build system and watch for changes. When you save a change, the browser preview will refresh automatically. That’s it for setup!</p>
+
+      <h4 id="files" class="how-to-subheader">Submitting your Building Block</h4>
+
+      <p class="how-to-paragraph">There are just a few simple files needed to submit your Building Block.</p>
+
+      <ul class="how-to-paragraph">
+        <li><strong>HTML:</strong> Every Building Block will need an HTML file to demonstrate the uniqueness of the component or layout.</li>
+        <li><strong>SCSS:</strong> You’ll add your custom styles in a SCSS file. You only need your additional styles as Foundation is already being imported for you. SCSS files accept CSS or SCSS so you can format it either way.</li>
+        <li><strong>JS:</strong> If your component uses custom JavaScript/jQuery you’ll create a JS file and add it there. Again, Foundation JS and jQuery are already included, so only your custom JS is needed if you used any.</li>
+        <li><strong>Image:</strong> A preview image of your Building Block. This will give people context on what the building block is! See suggestions for great preview images. The thumbnail should be in a <code>.png</code> format.</li>
+        <li><strong>YML:</strong> You’ll want to describe your Building Block and submit your name. A Yaml file uses a <code>.yml</code> file extension and is where the Building Block name, description, tags and more are stored.</li>
+        <hr>
+        <li><strong>Optional Layout HTML or SCSS:</strong> The Building Block should a stand-alone component that comes with no extra grid markup or containers. You can use an optional layout file to display the Blocks in a nicer way. <a href="#add-layout">See example below.</a></li>
+      </ul>
+
+      <p class="how-to-paragraph">You’ll find the <code>building-blocks</code> folder in the root directory of the Building Blocks project. This is where all the Building Blocks that get displayed on the site live.</p>
+
+      <h4 id="banch" class="how-to-subheader">(Step 1) Create a New Branch:</h4>
+
+      <p class="how-to-paragraph">Create a branch from which to submit your Building Block from. This will allow you to submit a Pull Request when you’re done so that the Foundation team can review it, offer suggestions and merge it in.</p>
+
+      <p class="how-to-paragraph">In your terminal, checkout a new branch</p>
+
+      <code>git checkout -b your-branch-name</code>
+
+      <br><br>
+
+      <h4 id="cli" class="how-to-subheader">(Step 2) Create a New, Unique Folder:</h4>
+
+      <p class="how-to-paragraph">Create a new folder in the Building Blocks folder. Name it the name of your Building Block.</p>
+
+      <p class="how-to-paragraph">The name should contain the component or type of component it is. For example a card should have Card in the name or a sidebar layout should have Sidebar in the name.</p>
+
+      <p class="how-to-paragraph">Example: article-card</p>
+
+      <p class="how-to-paragraph">All your files in the folder will have the same root name</p>
+
+      <ul class="how-to-paragraph">
+        <li>article-card</li>
+        <ul>
+          <li>article-card.html</li>
+          <li>article-card.scss</li>
+          <li>article-card.js</li>
+          <li>article-card.png</li>
+          <li>article-card.yml</li>
+        </ul>
+      </ul>
+
+      <h4 id="add" class="how-to-subheader">(Step 3) Add your Block:</h4>
+
+      <p class="how-to-paragraph">In your Building Block component folder, create your <code>.html</code>, <code>.scss</code>, <code>.js</code> and <code>.yml</code> pages.</p>
+
+      <ol class="how-to-paragraph">
+        <li>Create a HTML file</li>
+          <ul>
+            <li>Example: article-card.html</li>
+            <li>Paste in your HTML</li>
+            <li>Save</li>
+          </ul>
+        </li>
+        <li>Create a SCSS file</li>
+          <ul>
+            <li>Example: article-card.scss</li>
+            <li>Paste in your SCSS or CSS</li>
+            <li>Save</li>
+          </ul>
+        </li>
+        <li>Create an JS file (if applicable)</li>
+          <ul>
+            <li>Example: article-card.js</li>
+            <li>Paste in your JS</li>
+            <li>Save</li>
+          </ul>
+        </li>
+        <li>Create an YML file</li>
+          <ul>
+            <li>Example: article-card.yml</li>
+            <li>Fill out your yml data</li>
+            <li>Save</li>
+            <li>Here is a .yml file template you can use: <a href="https://github.com/zurb/building-blocks/blob/master/building-block-sample.yml" target="_blank">Sample .yml file</a></li>
+            <li>Make sure to add meaningful tags. <a href="#tag-details">See tag details below</a>.</li>
+          </ul>
+        </li>
+        <li>Add your preview image</li>
+          <ul>
+            <li>Example: article-card.png</li>
+            <li>Add the image to the <code>article-card</code> folder for this example.</li>
+            <li><a href="#img-guide">See image guidelines</a></li>
+          </ul>
+        </li>
+
+      </ol>
+
+      <p id="tag-details" class="how-to-paragraph">Tags are important for many reasons. They not only tell people about the Building Blocks, but they also help people find others like it. <!-- Additionally, the tags are used to match a Building Block to a corresponding docs page to show example of the component in use. --></p>
+
+      <p class="how-to-paragraph">To make it easy, we put together a list of tags to use. You'll find the tag list here: <a href="http://zurb.us/2oND1JR" target="_blank">http://zurb.us/2oND1JR</a></p>
+
+      <p class="how-to-paragraph"><strong>That’s it!</strong></p>
+
+      <p class="how-to-paragraph">You can preview your new Building Block on the homepage or go directly to it.</p>
+
+      <p class="how-to-paragraph">Example URL: http://localhost:8000/blocks/article-card.html</p>
+
+      <h4 id="add-layout" class="how-to-subheader">Optional Layout HTML or SCSS files.</h4>
+
+      <p class="how-to-paragraph">If needed, Building Blocks can have an optional layout file that helps you display your Building Blocks preview in a certain way, repeat the component, or inside a container. For example, our Article Card is one single card that fills the width of the container it's in. In order to keep it to a certain width and to repeat it several times without adding a ton of markup to the Article Card itself, we'll add a <code>layout.html</code> file.</p>
+
+      <p class="how-to-paragraph">Create a <code>layout.html</code> file inside your Building Blocks folder. So for our example, it will go in the <code>article-card</code> folder.</li>
+
+      <p class="how-to-paragraph">Example:</p>
+
+      <p><img src="{{root}}assets/img/images/howto-layouthtml.png" class="" height="" width="" alt="image of layered states Building block"></p>
+
+      <p class="how-to-paragraph">Here we used a Block Grid and included our Building Block 3 times, one for each column. You can use the Panini handlebars include like this or paste the HTML in.</p>
+
+      <p class="how-to-paragraph">You may need some CSS to ensure your Building Block demo looks as good as possible. In that case you may create a <code>layout.scss</code> file to add custom styles.</p>
+
+      <p class="how-to-paragraph">Example:</p>
+
+      <p><img src="{{root}}assets/img/images/howto-layoutscss.png" class="" height="" width="" alt="image of layered states Building block"></p>
+
+      <p class="how-to-paragraph">Note: adding a <code>layout.html</code> file will override the <code>containerClass</code> variable in your .yml file.</p>
+
+      <p class="how-to-paragraph">Looking good?</p>
+
+      <h4 class="how-to-subheader">(Step 4) Submit It!:</h4>
+
+      <p class="how-to-paragraph">Now it’s time to submit your Building Block. Make sure to add and commit your work. Then submit your Pull Request.</p>
+
+      <h4 id="review" class="how-to-subheader">Review Process</h4>
+
+      <p class="how-to-paragraph">Once you submit your Building Block pull request, a member of the Foundation team will review it to add it in.</p>
+
+      <p class="how-to-paragraph">Things we’ll be looking for:</p>
+
+      <ul>
+        <li>An image</li>
+        <li>The Building Block meets class naming guidelines</li>
+        <li>The Building Block is responsive</li>
+        <li>The <code>.yml</code> file has the proper tags and description.</li>
+      </ul>
+
+      <p class="how-to-paragraph">Lastly, we merge in your Pull Request and you become a legend!</p>
+    </section>
+
+
+    <hr class="how-to-line">
+    <!--submitting-->
+
+    <h2 class="how-to-header">How do I create a building block?</h2>
+
+    <div class="responsive-embed widescreen">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DeTHUSa3NcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h4 id="img-guide" class="how-to-subheader">Preview Images</h4>
+
+    <p class="how-to-paragraph">In order to make sure all the preview images look consistant and represent your Building Blocks well, we put together some guidelines for submitting a good preview image. These are the images that belong in the cards on the Building Blocks search results.
+
+    <p class="how-to-paragraph">Example of a good preview image:</p>
+
+    <p><img src="{{root}}assets/img/images/howto-previewimgexample.png" class="" height="" width="" alt="image of good Building block previews"></p>
+
+    <p class="how-to-paragraph">Take a screenshot of your building block with a background of <code>#E6E8EB</code></p>
+
+    <p class="how-to-paragraph">In your favorite image editing program, make an artboard with dimensions of 370x255, and set the background to the color to <code>#E6E8EB</code></p>
+
+    <p class="how-to-paragraph">Import the screenshot you took, and do your best to center it, while keeping it to about 80% of the width of the artboard</p>
+
+    <p class="how-to-lead">Note: if the height is extra long, its ok to let it overflow off the artboard as long as you emphasize the most important part</p>
+
+    <p class="how-to-paragraph">Optional but nice to have:</p>
+
+    <p class="how-to-paragraph">Bonus: If you can crop your screenshot so that no background is showing, you can make it look nicer a bit of box shadow. Set a box shadow of 3px in the y direction with 50 spread (blur radius). The color is Black (0,0,0) with an 11% opacity.</p>
+
+    <p class="how-to-paragraph">If your building block has multiple states and would be hard to explain with just one image, take an image of the extra states and layer it on top of the first image so the important components of both are showing.</p>
+
+    <p class="how-to-paragraph">Example:</p>
+
+    <p><img src="{{root}}assets/img/images/howto-layeredbb.png" class="" height="" width="" alt="image of layered states Building block"></p>
+
+    <p class="how-to-paragraph">Export the image into the folder of your building block, naming it the same name as the folder name.</p>
+
+    <br><br>
+  </div>
+</div>

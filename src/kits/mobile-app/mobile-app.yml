@@ -1,0 +1,23 @@
+name: Mobile App
+short_description: Provide an engaging experience for your users no matter what device they’re using
+description: In 2016, mobile internet usage surpassed the desktop, and it’s still growing. A well designed mobile experience is essential as more people move away from bigger screens. The Mobile App Kit includes a mobile top navigation bar, footer, block list, action sheet, modal, and filter menu so you’ll have all the elements you need to provide a smooth mobile first experience.
+background: '#34657D'
+images:
+  'hero': 'mobile-app-kit.jpg'
+  'card': 'mobile-app-kit.jpg'
+blocks:
+  - block-list
+  - mobile-nav-bar
+  - mobile-bottom-bar
+  - mobile-action-sheet
+  - mobile-ios-modal
+  - mobile-app-filter-menu
+  - mobile-app-dashboard
+  - mobile-app-icon-bar
+  - mobile-app-message-bar
+  - mobile-app-toggle
+  - input-number-group
+  - alerts-fancy
+  - show-password
+  - switch-toggle-all
+  - progress-indicator

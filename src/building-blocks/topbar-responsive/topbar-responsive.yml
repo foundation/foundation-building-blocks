@@ -1,0 +1,18 @@
+name: 'Top Bar with Animation'
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+  - flexbox
+  - animation
+category: navigation
+description: A slick looking Top Bar navigation with animation options for the mobile dropdown.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

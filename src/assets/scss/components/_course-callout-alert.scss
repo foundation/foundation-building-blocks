@@ -1,0 +1,93 @@
+.course-callout-alert {
+  display: flex;
+  align-items: flex-start;
+  background: $white;
+  padding: 25px 16px;
+  border: 0;
+  height: 153px;
+  width: 362px;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.2rem;
+  z-index: 100;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.13);
+  border-radius: 8px;
+  transition: $transition-slow;
+
+  &.absolute {
+    position: absolute;
+  }
+
+  .course-callout-alert-content {
+    flex: 1 0 auto;
+    padding-left: 1rem;
+  }
+
+  img {
+    transition: $transition-slow;
+  }
+
+  .open-button {
+    opacity: 0;
+    color: $dark-gray;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  &.is-moved-over {
+    right: -322px;
+
+    img {
+      transform: scale(0.3);
+      position: absolute;
+      left: -1.4rem;
+      bottom: -1rem;
+      transition: $transition-fast;
+    }
+
+    .course-callout-alert-content {
+      padding-left: 50px;
+    }
+
+    .open-button {
+      opacity: 1;
+      position: absolute;
+      left: 15px;
+      top: 15px;
+    }
+  }
+
+  &.no-animate {
+    transition: none;
+    img {
+      transition: none;
+    }
+  }
+
+
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
+.course-callout-alert-header {
+  font-weight: 600;
+  font-size: 19px;
+  color: $dark-blue;
+  margin-bottom: 4px;
+}
+
+.course-callout-alert-text {
+  font-size: 13px;
+  color: $slate-gray;
+  max-width: 234px;
+  line-height: 19px;
+  margin-bottom: 4px;
+}
+
+.course-callout-alert-link {
+  font-size: 12px;
+  margin-bottom: 0;
+}

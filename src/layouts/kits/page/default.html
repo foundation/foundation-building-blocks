@@ -1,0 +1,87 @@
+{{#set-kit-data this}}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{kit.description}}">
+    <title>{{kit.name}} Kit | Foundation 6</title>
+    <link rel="icon" href="{{root}}assets/img/favicon/foundation-favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css?rev=@@hash">
+    <meta name="rootpath" content="{{root}}">
+    <meta name="bbfile" content="{{root}}data/building-blocks.json">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ZURBFoundation">
+    <meta name="og:title" content="{{kit.name}} Kit">
+    <meta name="og:type" content="website">
+    <meta name="twitter:description" content="{{kit.description}}">
+    <meta name="og:description" content="{{kit.description}}">
+    <meta name="twitter:image" content="https://foundation.zurb.com/building-blocks/assets/img/kits/{{kit.datakey}}/{{kit.images.hero}}">
+    <meta name="og:image" content="https://foundation.zurb.com/building-blocks/assets/img/kits/{{kit.datakey}}/{{kit.images.hero}}">
+  </head>
+  <body class="{{#ifpage 'index' 'kits'}} background-alt {{/ifpage}}">
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      {{> offcanvas-menulists}}
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      {{> info-banner}}
+      {{> global-nav-mobile}}
+      {{> global-navigation}}
+      {{#if hero}}
+        {{> hero}}
+      {{/if}}
+      <!--fixed backround with image-->
+      <div class="kit-header"style="{{#if kit.images.hero}}background-image: url('{{@root.root}}assets/img/kits/{{kit.datakey}}/{{kit.images.hero}}');{{/if}}{{#if kit.background}}background-color: {{kit.background}};{{/if}}">
+      </div>
+      <div class="page-container">
+        {{#if filter-nav}}
+          {{> filter-nav}}
+        {{/if}}
+        {{#if filter-dropdowns}}
+          {{> filter-dropdowns}}
+        {{/if}}
+        {{> kit-description kit}}
+        <!--kit building blocks-->
+        <div class="page-background-alt building-block-related kit-building-blocks">
+          <div class="row kit-details-header">
+          <div class="columns kit-details-header-text">
+            <h2 class="kit-details-header-text-heading">Building Blocks In This Kit</h2>
+          </div>
+          <div class="columns shrink kit-details-action">
+            <a class="kit-details-search" data-toggle="bb-search-bar">
+              <span class="kit-details-search-text">Find More Building Blocks</span>
+              <img class="inject-me kit-details-search-icon" src="{{root}}assets/img/icons/filter-search.svg" alt="Search">
+            </a>
+          </div>
+          {{> search-bar type="kits"}}
+
+        </div>
+          <div id="main-results-container">
+            <div class="row small-up-1 medium-up-2 large-up-3">
+              {{#each kit.blocks}}
+              <div class="column column-block card-block">
+                {{> building-block-card this}}
+              </div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <div id="search-results-container" class="bb-search-results">
+          <div class="row small-up-1 medium-up-2 large-up-3 card-container">
+          </div>
+        </div>
+        {{> preview-modal}}
+      </div>
+      {{> footer}}
+    </div>
+
+    {{{partial-as-script 'building-block-card' 'building-block/building-block-card-with-column.html'}}}
+    {{{partial-as-script 'kit-card' 'kit/kit-card-with-column.html'}}}
+    <script src="{{root}}assets/js/app.js?rev=@@hash"></script>
+  </body>
+</html>
+{{/set-kit-data}}

@@ -1,0 +1,18 @@
+name: 'Sticky Nav Shrink Hero'
+tags:
+  - navigation
+  - nav
+  - menu
+  - hero
+  - flexbox
+  - animation
+category: navigation
+description: A hero that shrinks away on scroll allowing the navigation to be sticky.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

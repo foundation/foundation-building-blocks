@@ -1,0 +1,23 @@
+name: Portfolio Hero Header With Logo
+description: A simple portfolio hero header with logo.
+category: navigation
+tags:
+  - portfolio
+  - hero
+  - menu
+  - header
+  - navigation
+  - nav
+versions:
+  - 6.2.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.4
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball
+containerClass: none

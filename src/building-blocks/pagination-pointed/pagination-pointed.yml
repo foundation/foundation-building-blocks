@@ -1,0 +1,15 @@
+name: "Pagination with Pointed Buttons"
+tags:
+  - nav
+  - navigation
+  - pagination
+category: navigation
+description: Pagination with nice buttons for good touch target.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded

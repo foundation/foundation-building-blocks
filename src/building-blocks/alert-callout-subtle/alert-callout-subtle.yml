@@ -1,0 +1,19 @@
+name: "Alert Callouts Subtle"
+tags:
+  - note
+  - panel
+  - callout
+  - notification
+  - alert
+  - interaction
+  - toggler
+category: status
+description: These alerts are great to grab attention when something needs to be addressed on your page or view.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded row align-center medium-8 large-6 columns

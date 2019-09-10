@@ -1,0 +1,14 @@
+name: "Progress Indicator"
+tags:
+  - progress
+  - mobile
+category: status
+description: A progress indicator that is useful for showing steps. Can be used with text or without.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

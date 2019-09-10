@@ -1,0 +1,16 @@
+name: "Sticky Signup Bar"
+tags:
+  - forms
+  - sticky
+  - signup
+  - callout
+  - blog
+  - email
+category: forms
+description: A sticky callout that starts fixed positioned and moves into the page when user scrolls to correct spot.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: tdhartwick
+  name: Tim Hartwick

@@ -1,0 +1,13 @@
+name: "CSS Grid - 4 Squares Layout"
+tags:
+  - layout
+  - grid
+  - CSS Grid
+category: containers
+description: A four section layout that stacks on smaller screens.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu

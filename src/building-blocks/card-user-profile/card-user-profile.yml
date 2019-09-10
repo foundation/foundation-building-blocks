@@ -1,0 +1,18 @@
+name: 'Info Card With Labels'
+tags:
+  - content
+  - button
+  - card
+  - profile
+  - product
+  - social
+category: containers
+description: A fancy card great for a user profile, social media, or even a product. It has a skew effect and a place for an avatar image. This also used the Foundation Card component through Sass mixins.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column medium-5 large-3 align-center

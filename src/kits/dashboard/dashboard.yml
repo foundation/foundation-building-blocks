@@ -1,0 +1,24 @@
+name: Dashboard
+short_description: Display your data clearly and completely so your team can act.
+description: Dashboards and admin panels can be some of the most complicated pages to build, but the Dashboard Kit makes it easy. It includes a common dashboard layout with an expandable sidebar, top navigation and scrolling content, two kinds of circle graphs, bar graphs, a number incrementor, responsive tables and a number card to give you everything you need to beautifully display all kinds of data.
+background: '#A02C2A'
+images:
+  'hero': 'dashboard-kit.jpg'
+  'card': 'dashboard-kit.jpg'
+blocks:
+  - app-dashboard-layout
+  - multilevel-accordion-menu
+  - dashboard-number-card
+  - dashboard-nav-card
+  - dashboard-table
+  - circle-graph
+  - clipped-circle-graph
+  - input-number-group
+  - searchbar-expand-on-click
+  - todo-list-card
+  - bar-graph
+  - card-tabs
+  - switch-toggle-all
+  - alert-callout-subtle
+  - alert-callout-border
+  - stats-list

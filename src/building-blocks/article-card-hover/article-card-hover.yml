@@ -1,0 +1,17 @@
+name: 'Article Card Hover'
+tags:
+  - media
+  - blog
+  - card
+  - animation
+  - hover
+  - interaction
+category: containers
+description: Article Card with hover effect and a nice overlap on the image with details for topic, author, title, summary and time to read.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers
+containerClass: container-padded row medium-5 large-3 column

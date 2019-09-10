@@ -1,0 +1,17 @@
+name: "Button Hover Options"
+tags:
+  - button
+  - ecommerce
+  - show hide
+  - interaction
+  - flexbox
+category: control
+description: Gives the user two options on hover.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row align-center medium-6 column

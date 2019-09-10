@@ -1,0 +1,19 @@
+name: Vertical Bar Graph
+description: A responsive flexbox-based vertical bar graph using only HTML and SCSS.
+category: status
+tags:
+  - graph
+  - chart
+  - data
+  - vizualization
+  - dashboard
+  - admin
+  - app
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball
+

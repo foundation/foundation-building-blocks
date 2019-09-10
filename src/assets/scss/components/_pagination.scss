@@ -1,0 +1,39 @@
+.pagination {
+  margin-bottom: $page-spacing;
+
+  a {
+    color: $dark-blue;
+    font-weight: $global-weight-semibold;
+
+    &:hover {
+      background: $light-blue;
+    }
+  }
+
+}
+
+.pagination-icon {
+  height: 0.7rem;
+
+  * {
+    stroke: $dark-blue;
+  }
+}
+
+.current {
+  &.bb {
+    background: $light-blue;
+    color: $dark-blue;
+    font-weight: 700;
+  }
+}
+
+.pagination-previous {
+  &.disabled {
+    .pagination-icon {
+      * {
+        stroke: $medium-gray;
+      }
+    }
+  }
+}

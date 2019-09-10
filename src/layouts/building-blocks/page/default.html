@@ -1,0 +1,68 @@
+<!-- {{#set-bb-data this}} -->
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{block.description}}">
+    <title>{{block.name}} | Foundation 6</title>
+    <link rel="icon" href="{{root}}assets/img/favicon/foundation-favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css?rev=@@hash">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ZURBFoundation">
+    <meta name="twitter:title" content="{{block.name}}">
+    <meta name="og:title" content="{{block.name}}">
+    <meta name="og:type" content="website">
+    <meta name="twitter:description" content="{{block.description}}">
+    <meta name="og:description" content="{{block.description}}">
+    <meta name="twitter:image" content="https://foundation.zurb.com/building-blocks/{{block.thumb}}">
+    <meta name="og:image" content="https://foundation.zurb.com/building-blocks/{{block.thumb}}">
+  </head>
+  <body>
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      {{> offcanvas-menulists}}
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      {{> info-banner}}
+      {{> global-nav-mobile}}
+      {{> global-navigation}}
+      <div class="page-container">
+        <div class="row columns">
+          {{> bb-breadcrumbs}}
+        </div>
+
+        {{> building-block-header}}
+
+        {{> building-block-preview}}
+
+<!-- This is indented on purpose -->
+{{> building-block-code}}
+
+        <div class="building-block-related">
+          <div class="row column">
+            <h2 class="bb-related-title">Similar Building Blocks</h2>
+          </div>
+          <div class="row small-up-1 medium-up-2 large-up-3 scroll-container">
+            {{#random-related-blocks this 3}}
+            <div class="column column-block scroll-x">
+              {{> building-block-card currentBlock}}
+            </div>
+            {{/random-related-blocks}}
+          </div>
+        </div>
+      </div>
+      {{> footer}}
+    </div>
+
+    <div class="row">
+      <div class="smedium-4 columns"></div>
+    </div>
+
+    <script src="{{root}}assets/js/app.js?rev=@@hash"></script>
+  </body>
+</html>
+{{/set-bb-data}}

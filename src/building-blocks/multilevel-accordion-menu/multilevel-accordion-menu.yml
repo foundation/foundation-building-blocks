@@ -1,0 +1,19 @@
+name: 'Multi-level Accordion File Menu'
+featured: true
+tags:
+  - navigation
+  - nav
+  - accordion menu
+  - menu
+  - icons
+category: navigation
+description: Using the Foundation 6 accordion menu component, we created a slick multilevel accordion menu. The icons change as the menu opens and closes. This is great for a side nav, sidebar, mobile menu, or off-canvas menu.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row medium-6 large-6 align-center column container-padded

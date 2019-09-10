@@ -1,0 +1,16 @@
+name: 'Info Card With Labels'
+tags:
+  - content
+  - label
+  - callout
+  - card
+category: containers
+description: Cards good for a callout, offer, warning or other info.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

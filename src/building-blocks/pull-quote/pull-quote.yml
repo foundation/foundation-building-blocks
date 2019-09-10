@@ -1,0 +1,16 @@
+name: "Pull Quote"
+tags:
+  - article
+  - blog
+  - content
+  - typography
+category: media
+description: A pull quote style for calling out a piece of text in an article.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

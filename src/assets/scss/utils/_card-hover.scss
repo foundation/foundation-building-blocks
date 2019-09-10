@@ -1,0 +1,52 @@
+.hover-wrapper {
+  @include transition(opacity 0.1s ease-out);
+  border-radius: rem-calc(5);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $page-spacing;
+  overflow: hidden;
+  position: relative;
+
+  .card-imghover-overlay::after {
+    @include transition(opacity 0.2s ease-out);
+
+    align-items: center;
+    background-color: rgba(40, 103, 127, 0.72);
+    border-radius: rem-calc(5) rem-calc(5) rem-calc(0) rem-calc(0);
+    color: $white;
+    content: 'See code';
+    display: flex;
+    font-size: rem-calc(41);
+    font-weight: $global-weight-bold;
+    height: calc(100% - #{$card-hover-link-height});
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 80;
+  }
+
+  &:hover {
+    @include transition(opacity 0.1s ease-out);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    
+    .card-imghover-overlay::after {
+      @include transition(opacity 0.1s ease-out);
+      opacity: 1;
+    }
+
+    .card-actions span,
+    .card-actions img, 
+    .card-author,
+    .bb-card-social-icon {
+    @include transition(opacity 0.1s ease-out);
+      color: $dark-gray;
+
+      * {
+        fill: $dark-gray;
+      }
+    }
+  }
+}

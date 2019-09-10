@@ -1,0 +1,16 @@
+name: "Article Card with Flexbox"
+tags:
+  - flexbox
+  - card
+  - content
+  - media
+  - blog
+category: containers
+description: An article card using Flexbox with tags, author, time, summary, and other details.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers
+containerClass: container-padded row small-9 medium-5 large-3 align-center column

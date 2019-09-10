@@ -1,0 +1,30 @@
+name: News / Magazine
+short_description: Everything you'll need to build a dynamic and engaging news site.
+description: This News/Magazine Kit provides all the Building Blocks you'll need to keep your site ahead of the trend. We've included highly customizable Building Blocks, from a navigation bar that responsively hides links to various media inserts for articles, to make your content stand out.
+background: '#207DAB'
+images:
+  'hero': 'news-kit.jpg'
+  'card': 'news-kit.jpg'
+blocks:
+  - news-card
+  - responsive-hidden-nav
+  - topbar-responsive
+  - comment-section
+  - about-the-author
+  - wide-article-link
+  - large-article-header
+  - simple-article-header
+  - blockquote
+  - flexible-article-images
+  - featured-article-side-links
+  - featured-blog-posts-panel
+  - sticky-social-bar
+  - ecommerce-footer
+  - pagination-circular
+  - pagination-pointed
+  - tag-cloud
+  - social-buttons
+  - polls
+  - news-image-gallery
+  - quote-inline
+  - neat-article-container

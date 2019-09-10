@@ -1,0 +1,14 @@
+name: "Tabbed search bar"
+tags:
+  - tabs
+  - search
+  - content
+category: control
+description: "Using Foundation's tabs to have a series of search options. Designed to sit on top of e.g. a hero image (used here in the layout to show context)"
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: kball
+  'foundation-forum': 17824
+  name: Kevin

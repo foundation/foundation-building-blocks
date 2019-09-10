@@ -1,0 +1,17 @@
+name: "Ecommerce Header"
+tags:
+  - ecommerce
+  - header
+  - search
+  - categories
+  - navigation
+  - drop down
+category: navigation
+description: Header for an eCommerce site that shows main and secondary navigation, including search and product category drop down.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: kwhchu
+  name: Kevin
+containerClass: none

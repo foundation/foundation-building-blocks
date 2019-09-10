@@ -1,0 +1,17 @@
+name: "Mobile App Filter Menu"
+tags:
+  - menu
+  - nav
+  - navigation
+  - mobile
+  - flexbox
+category: navigation
+description: A mobile app filter navigation style.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

@@ -1,0 +1,103 @@
+.off-canvas {
+  background-color: $offcanvas-background;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 15px 0;
+
+  li {
+    list-style-type: none;
+    padding: 0 15px;
+  }
+
+  a {
+    color: $white;
+    font-size: rem-calc(18);
+    font-weight: 600;
+    line-height: 38px;
+    opacity: .75;
+  }
+
+  .first {
+    color: #727272;
+    font-family: 'Proxima Nova Condensed', 'proxima-nova-condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  hr {
+    border-color: #444444;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 8px 0 20px;
+  }
+}
+
+// Studios, Foundation, Notable, University links
+.zurb-links {
+  ul {
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.6;
+    list-style-position: outside;
+    margin-bottom: 1.25em;
+  }
+}
+
+// ZURB logo (next to about, blog and contact)
+.logo {
+  img {
+    display: inline-block;
+    height: 15px;
+    opacity: 1;
+    padding: 2px 2px 5px 15px;
+    width: auto;
+  }
+}
+
+// About, Blog, Contact links
+.zurb-links .top li {
+  display: inline-block;
+  font-family: 'Proxima Nova Condensed', 'proxima-nova-condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1;
+  margin-left: 0;
+  padding: 0;
+
+  a {
+    color: #ddd;
+    font-size: 0.81em;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+}
+
+// --- Mobile Top Bar
+
+.global-nav-mobile {
+  .global-nav-title {
+    margin-left: 1.5rem;
+  }
+}
+
+// hamburger-menu
+
+.hamburger-icon {
+  @include vertical-center;
+  height: 12px;
+  left: 10px;
+}
+
+// zurb logo
+.title-bar-title {
+  img {
+    @include vertical-center;
+
+    height: 14px;
+    left: 2.25rem;
+    opacity: 0.9;
+    width: 76px;
+  }
+}

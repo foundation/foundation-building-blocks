@@ -1,0 +1,47 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta-title}} | Foundation 6</title>
+    <link rel="icon" href="{{root}}assets/img/favicon/foundation-favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body class="{{#ifpage 'index' 'kits'}} background-alt {{/ifpage}}">
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      {{> offcanvas-menulists}}
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      {{> global-nav-mobile}}
+      {{> global-navigation}}
+      {{#if hero}}
+        {{> hero}}
+      {{/if}}
+      <div class="page-container">
+        {{#if filter-nav}}
+          {{> filter-nav}}
+        {{/if}}
+        {{#if filter-dropdowns}}
+          {{> filter-dropdowns}}
+          {{/if}}
+        {{> body}}
+        {{#ifpage 'index'}}
+          {{> pagination}}
+        {{/ifpage}}
+        {{> preview-modal}}
+      </div>
+    
+
+      {{> footer}}
+    </div>
+
+    {{{partial-as-script 'building-block-card' 'building-block/building-block-card-with-column.html'}}}
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

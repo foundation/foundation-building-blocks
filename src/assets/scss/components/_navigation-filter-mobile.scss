@@ -1,0 +1,146 @@
+.filter-nav-mobile-container {
+  background-color: $light-blue;
+  margin-bottom: 1rem;
+  margin-top: $global-margin;
+
+  .filter-nav-mobile-button {
+    align-items: center;
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: center;
+    padding: $global-padding;
+    width: 100%;
+
+    span {
+      color: $white;
+    }
+
+    .bb-category-icon {
+      height: rem-calc(24);
+
+      * {
+        fill: $white;
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
+
+.bb-filter-icons-container {
+  height: calc(100vh - 60px);
+}
+
+.filter-nav-mobile-modal {
+  height: 100vh;
+  padding: 0;
+}
+
+.filter-nav-mobile {
+  height: 100vh;
+
+  .bb-filter-icons {
+    margin-bottom: 1rem;
+  }
+
+  .filter-nav-button {
+    align-items: center;
+    border-radius: 0;
+    color: $dark-blue;
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: rem-calc(20);
+    padding-top: rem-calc(20);
+
+    .bb-filter-icons {
+      * {
+        fill: $dark-blue;
+      }
+    }
+
+    // expands width of buttons in mobile filter
+    @include breakpoint(small) {
+      border-bottom: 1px solid $light-gray;
+      border-radius: 0;
+      border-right: 1px solid $light-gray;
+      width: 100%;
+    }
+
+    &.active {
+      background: $light-blue;
+      color: $dark-blue;
+
+      .bb-filter-icons {
+        * {
+          fill: $dark-blue;
+        }
+      }
+    }
+
+    &:hover {
+      background: $light-blue;
+      color: $dark-blue;
+
+      .bb-filter-icons {
+        * {
+          fill: $dark-blue;
+        }
+      }
+    }
+
+    span {
+      font-size: rem-calc(14);
+      font-weight: $global-weight-semibold;
+    }
+  }
+}
+
+.filter-nav-mobile-header {
+  background-color: $dark-blue;
+  color: $white;
+  padding: $global-padding;
+
+  .cancel-button {
+    color: $white;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.filter-title {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.sort-title {
+  background-color: $dark-blue;
+  color: $white;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: $global-padding;
+}
+
+.sort-menu {
+  li {
+    border-bottom: 1px solid $light-gray;
+
+    a {
+      color: $dark-gray;
+      font-weight: 600;
+      padding: 2rem;
+    }
+
+    .is-active {
+      background-color: $light-blue;
+      color: $dark-blue;
+    }
+  }
+}
+
+.apply-filters-button {
+  margin-top: $global-margin;
+}

@@ -1,0 +1,22 @@
+name: "Pricing Table"
+tags:
+  - pricing table
+  - card
+  - content
+  - ecommerce
+  - business
+  - product
+category: containers
+description: Replicates Foundation 5's Pricing Table. If you're making a rockin' marketing site for a subscription-based product, you're likely in need of a pricing table. These tables fill 100% of their container and are made from a simple unordered list.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: andycochran
+  'foundation-forum': 18025
+  name: Andy Cochran
+containerClass: container-padded row align-center medium-6 large-4 columns

@@ -1,0 +1,16 @@
+name: 'Profile Card with Action Icons'
+tags:
+  - about
+  - social
+  - icons
+  - profile
+  - card
+category: containers
+description: Profile Card great for social sites user profile. Use the grid to size the cards.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

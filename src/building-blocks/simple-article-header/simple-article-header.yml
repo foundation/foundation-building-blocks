@@ -1,0 +1,17 @@
+name: 'Simple Article Header'
+tags:
+  - article
+  - news
+  - blog
+  - social
+  - icons
+  - content
+category: media
+description: A Super Simple Article Header. This also includes the posts section.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

@@ -1,0 +1,19 @@
+<div class="filter-nav-container">
+  <div class="row filter-nav align-right">
+
+    <div class="column medium-8 flex-container align-middle align-spaced">
+      {{#each global.filter-nav}}
+      <a href="{{@root.root}}{{page}}.html" class="filter-nav-button {{classes}} {{#ifequal @root.datakey page}}active{{/ifequal}}"><img src="{{root}}{{img}}" class="inject-me bb-filter-icons" height="" title="{{title}}" width="" alt="{{alt}}"><span>{{title}}</span></a>
+      {{/each}}
+    </div>
+
+    <!-- search -->
+    <div class="column medium-2 flex-container align-right align-self-center fast">
+      <button class="bb-search-button" data-toggle="bb-search-bar bb-filter-icons-container"><img src="{{root}}assets/img/icons/filter-search.svg" class="inject-me bb-search-icon" height="" title="Search Building Blocks" width="30" alt="Search icon"><span></span></button>
+    </div>
+    <!--search container-->
+    {{> search-bar type="blocks"}}
+  </div>
+</div>
+
+{{> filter-nav-mobile}}

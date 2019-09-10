@@ -1,0 +1,17 @@
+name: "Inline Quote"
+tags:
+  - quote
+  - testimonial
+  - content
+  - typography
+  - blog
+category: containers
+description: A great way to display a quote or testimonial in context of an article section.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row medium-6 columns align-center

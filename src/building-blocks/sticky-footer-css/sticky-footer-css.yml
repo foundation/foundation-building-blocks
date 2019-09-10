@@ -1,0 +1,16 @@
+name: "Sticky Footer with CSS Only"
+tags:
+  - layout
+  - sticky
+  - footer
+  - flexbox
+category: containers
+description: A footer that sticks to the bottom of the page no matter how tall or short the page is. Overflow will scroll.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

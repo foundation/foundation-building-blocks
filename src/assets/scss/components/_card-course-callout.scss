@@ -1,0 +1,20 @@
+.course-callout-card {
+  height: $card-height;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $white;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center;
+
+  img,
+  .course-callout-alert-text {
+    margin-bottom: 1rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+}

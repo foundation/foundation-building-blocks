@@ -1,0 +1,21 @@
+name: 'Sticky Top Bar'
+tags:
+  - navigation
+  - nav
+  - menu
+  - top bar
+  - sticky
+category: navigation
+description: A topbar navigation that is sticky. Make sure to set `anchor` to the ID of your page container.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: brettsmason
+  'foundation-forum': 4753
+  name: Brett Mason
+containerClass: none

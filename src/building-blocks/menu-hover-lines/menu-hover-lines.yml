@@ -1,0 +1,16 @@
+name: 'Menu with Hover Borders'
+tags:
+  - navigation
+  - nav
+  - menu
+  - links
+category: navigation
+description: A Foundation menu with a hover effect and active style.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: align-center row column shrink

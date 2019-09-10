@@ -1,0 +1,15 @@
+name: "Dashboard Nav Card"
+tags:
+  - card
+  - dashboard
+  - data
+  - nav
+category: navigation
+description: A simple card for navigation that includes an icon
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: tdhartwick
+  name: Tim Hartwick
+

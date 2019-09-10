@@ -1,0 +1,26 @@
+.building-block-related {
+  background: $pale-blue;
+  padding-bottom: $page-spacing;
+  padding-top: $page-spacing;
+}
+
+.building-block-related-header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bb-related-title {
+  color: $dark-blue;
+  font-size: rem-calc(23);
+  font-weight: $global-weight-bold;
+  &.space {
+    margin-bottom: $page-spacing;
+  }
+}
+
+.bb-related-link {
+  color: $dark-blue;
+  font-weight: $global-weight-bold;
+  margin-bottom: 0.5rem;
+}

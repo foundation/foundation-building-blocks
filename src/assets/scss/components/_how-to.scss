@@ -1,0 +1,47 @@
+
+.how-to-header {
+  color: $dark-blue;
+  font-weight: $global-weight-semibold;
+  margin-bottom: $page-spacing;
+
+}
+
+.how-to-subheader {
+  color: lighten($dark-blue, 5%);
+  font-size: rem-calc(20);
+  font-weight: $global-weight-semibold;
+}
+
+.how-to-small-title {
+  color: lighten($dark-blue, 10%);
+  font-weight: $global-weight-semibold;
+}
+
+.how-to-paragraph {
+  color: lighten($black, 30%);
+  margin-bottom: $page-spacing;
+}
+
+.how-to-lead {
+  background: $pale-blue;
+  border-radius: rem-calc(5);
+  border: 1px solid $dark-blue;
+  color: $dark-blue;
+  font-weight: $global-weight-semibold;
+  margin-bottom: $page-spacing;
+  padding: 2rem;
+
+}
+
+.how-to-line {
+  margin-bottom: 3rem;
+}
+
+.code-scroller {
+  position: relative;
+  overflow-x: scroll;
+
+  @include breakpoint(small only) {
+    max-width: 320px;
+  }
+}

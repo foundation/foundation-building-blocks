@@ -1,0 +1,20 @@
+name: Featured Image Block grid
+description: A block grid of featured images useful for showing things like destinations, real estate photos, or similar
+category: media
+tags:
+  - real estate
+  - travel
+  - images
+  - block grid
+versions:
+  - 6.2.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.4
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

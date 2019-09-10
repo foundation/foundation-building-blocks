@@ -1,0 +1,21 @@
+name: "Image Hover Link Block"
+tags:
+  - interaction
+  - hover
+  - content
+  - show hide
+  - links
+  - image
+  - gallery
+  - blog
+featured: true
+category: media
+description: A hover wrapper you can add to images to reveal some content. Meant to link to another page.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column medium-5 align-center

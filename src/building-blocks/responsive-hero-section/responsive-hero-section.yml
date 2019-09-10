@@ -1,0 +1,19 @@
+name: "Responsive Hero Section"
+tags:
+  - hero
+  - header
+  - image
+  - flexbox
+category: media
+description: A responsive hero image with centered text overlaid.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: LaurelBCodin
+  name: Laurel Beyers
+containerClass: none

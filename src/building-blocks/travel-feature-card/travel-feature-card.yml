@@ -1,0 +1,19 @@
+name: Travel Feature Card
+description: An extensible and responsive  card component for embedding details and features of your travel. You can extend this card simply by adding additional 'travel-feature-card-details' elements below a single 'travel-feature-card-header'.
+category: containers
+tags:
+  - real estate
+  - travel
+  - card
+versions:
+  - 6.2.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.4
+  - 6.3.0
+  - 6.3.1
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

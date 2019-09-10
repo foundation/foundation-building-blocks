@@ -1,0 +1,12 @@
+name: '3 Column Footer with contact form'
+tags:
+  - footer
+category: containers
+description: A Responsive footer with contact details, newsletter signup, contact form and company details. Each column aligns to the bottom.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: nitrokevin
+  name: Kevin Neal
+grid: float

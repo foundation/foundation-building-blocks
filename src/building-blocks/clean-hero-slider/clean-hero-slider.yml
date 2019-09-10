@@ -1,0 +1,15 @@
+name: "Clean Hero Slider"
+tags:
+  - carousel
+  - orbit
+  - js
+  - hero
+category: media
+description: A responsive slider for your for your home page, with simplicity and cleanness as priority.
+versions:
+  - 6.3.0
+author:
+  github: circleb
+  name: Ben Owen
+  twitter: circleb
+containerClass: none

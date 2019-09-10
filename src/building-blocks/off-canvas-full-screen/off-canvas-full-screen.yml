@@ -1,0 +1,15 @@
+name: 'Full Screen Off Canvas'
+tags:
+  - off-canvas
+  - navigation
+  - nav
+  - menu
+category: navigation
+description: A full screen off canvas menu.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: brettsmason
+  name: Brett Mason
+containerClass: none

@@ -1,0 +1,15 @@
+name: Mobile Nav Bar
+description: A simple mobile navigation pattern with hamburger icon, page, and actions
+category: navigation
+tags:
+  - mobile
+  - app
+  - navbar
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: 'mobile-container'
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

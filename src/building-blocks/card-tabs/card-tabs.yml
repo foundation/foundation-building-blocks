@@ -1,0 +1,19 @@
+name: "Tabbed Card"
+tags:
+  - card
+  - links
+  - tabs
+  - content
+  - image
+  - icons
+  - flexbox
+category: containers
+description: A simple card with a title and Tabs in the header. You can tab through card content.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  name: James Stone
+  github: jamesstoneco
+  'foundation-forum': 451
+containerClass: row column medium-6 large-4 align-center

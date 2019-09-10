@@ -1,0 +1,21 @@
+name: "Promotion Hero with Links"
+tags:
+  - hero
+  - header
+  - image
+  - ecommerce
+  - links
+  - promotion
+category: media
+description: A simple promotional header containing featured links to other shopping categories.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: canterberrie
+  name: Christine Siu
+containerClass: row expanded column

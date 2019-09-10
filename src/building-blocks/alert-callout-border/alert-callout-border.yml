@@ -1,0 +1,17 @@
+name: "Alert Callouts Bordered"
+tags:
+  - note
+  - panel
+  - callout
+  - notification
+  - alert
+category: status
+description: These alerts are great to grab attention when something needs to be addressed on your page or view. They are closable and have an easy to change radius.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: container-padded row align-center medium-8 large-6 columns

@@ -1,0 +1,20 @@
+name: "App Feature Section"
+tags:
+  - feature
+  - content
+  - image
+  - product
+  - layout
+  - grid
+  - flexbox
+  - ecommerce
+category: containers
+description: Feature sections to show off or detail how awesome your product is. On smaller screens, the image orientation changes to fit nicely on mobile devices.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

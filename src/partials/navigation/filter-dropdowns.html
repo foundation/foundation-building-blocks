@@ -1,0 +1,27 @@
+<div class="row align-center filter-nav-dropdown show-for-medium">
+    <div class="medium-3 columns">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a data-filter-current href="#">All versions</a>
+          <ul class="menu">
+            {{#each versions}}
+            <li><a data-hide-active data-filter data-type="{{this}}" href="#">Version {{this}}.X</a></li>
+            {{/each}}
+            <li><a class="hide" data-hide-active data-filter data-type="all" href="#">All Versions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="medium-3 columns">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a data-sort-current href="#">Newest</a>
+          <ul class="menu">
+            <li><a data-hide-active data-sort data-type="newest" class="hide" href="#">Newest</a></li>
+            <li><a data-hide-active data-sort data-type="oldest" href="#">Oldest</a></li>
+            <li><a data-hide-active data-sort data-type="alphabetical" href="#">Alphabetical</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>

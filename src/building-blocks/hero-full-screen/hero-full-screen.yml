@@ -1,0 +1,22 @@
+name: 'Full Screen Hero'
+tags:
+  - magellan
+  - hero
+  - content
+  - image
+  - layout
+  - flexbox
+category: containers
+description: A full screen hero that has horizontally and vertically centered content and a button to scroll to first section.
+versions:
+  - 6.4.3
+  - 6.4.2
+  - 6.4.1
+  - 6.4.0
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

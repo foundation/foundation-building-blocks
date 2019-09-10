@@ -1,0 +1,14 @@
+name: 'Registration Form'
+tags:
+  - form
+  - registration
+category: forms
+description: A stylish registration form that works well in a modal, dropdown or stand-alone.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column align-center medium-5 large-4

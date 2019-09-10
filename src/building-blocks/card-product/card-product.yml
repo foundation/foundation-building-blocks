@@ -1,0 +1,19 @@
+name: "Product Card"
+tags:
+  - card
+  - hover
+  - button
+  - control
+  - show hide
+  - interaction
+  - ecommerce
+category: containers
+description: A product card with a neat hover interaction that reveals content an (add-to-card button) and adds color to the image.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row medium-5 large-4 columns align-center

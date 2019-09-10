@@ -1,0 +1,17 @@
+name: 'Hover Product Card'
+tags:
+  - ecommerce
+  - product
+  - card
+  - hover
+  - interaction
+category: containers
+description: Cards good for an Ecommerce site with a slick hever effect to reveal actions.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

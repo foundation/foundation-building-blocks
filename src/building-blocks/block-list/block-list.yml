@@ -1,0 +1,16 @@
+name: Block List
+description: A reusable block list, especially useful for mobile apps or other places where you are displaying a list of content in a confined space
+category: containers
+tags:
+  - mobile
+  - app
+  - content
+  - list
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: 'list-container'
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

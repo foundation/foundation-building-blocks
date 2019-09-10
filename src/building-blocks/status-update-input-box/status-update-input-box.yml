@@ -1,0 +1,16 @@
+name: 'Status Update with Input Box'
+tags:
+  - social
+  - icons
+  - status
+  - containers
+  - button
+category: status
+description: An area for the user to post a status update. It includes a textarea, some action icons, and a submit/post button.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

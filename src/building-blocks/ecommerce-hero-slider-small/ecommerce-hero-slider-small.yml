@@ -1,0 +1,16 @@
+name: "Product Hero Slider - Small"
+tags:
+  - ecommerce
+  - hero
+  - product
+  - slider
+  - product listing
+category: container
+description: Product Hero Slider for an eCommerce site that can be used to highlight product deals.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: kwhchu
+  name: Kevin
+containerClass: none

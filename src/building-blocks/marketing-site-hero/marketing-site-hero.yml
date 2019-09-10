@@ -1,0 +1,22 @@
+name: 'Marketing Site Hero Section'
+tags:
+  - hero
+  - header
+  - image
+  - content
+  - mobile first
+  - button
+  - flexbox
+category: containers
+description: A responsive hero section with a background image. On mobile the image shifts focus so the text is readable.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: rafibomb
+  name: Rafi
+containerClass: none

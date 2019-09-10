@@ -1,0 +1,51 @@
+.download-dropdown-pane {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  color: $dark-blue;
+  font-size: 1rem;
+  font-weight: $global-weight-semibold;
+  padding: 0;
+  // work around stupid bug when hidden
+  left: 0;
+  @include breakpoint(medium) {
+    width: 500px;
+  }
+  .input-group {
+    margin-bottom: 0;
+  }
+}
+
+.dropdown-foundation {
+  padding: 1rem;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-title {
+  margin-bottom: 0;
+}
+
+.dropdown-help {
+  height: 1.5rem;
+}
+
+.dropdown-input {
+  background: $light-blue;
+  border-color: $primary-color;
+  box-shadow: none;
+}
+
+.dropdown-copy {
+  width: rem-calc(100);
+}
+
+.dropdown-download {
+  color: $primary-color;
+  display: block;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}

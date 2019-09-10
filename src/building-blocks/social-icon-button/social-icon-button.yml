@@ -1,0 +1,19 @@
+name: 'Social Icon Buttons'
+tags:
+  - social
+  - icons
+  - button
+category: control
+description: Social icons with a hover effect.
+versions:
+  - 6.3.1
+  - 6.3.0
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+  - 6.2.0
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: row column align-center

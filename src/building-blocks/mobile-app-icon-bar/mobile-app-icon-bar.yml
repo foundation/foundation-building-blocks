@@ -1,0 +1,19 @@
+name: "Mobile App Bottom Bar"
+tags:
+  - menu
+  - nav
+  - navigation
+  - mobile
+  - flexbox
+  - icons
+  - button
+category: navigation
+description: A mobile app bottom navigation bar.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: rafibomb
+  'foundation-forum': 10
+  name: Rafi
+containerClass: none

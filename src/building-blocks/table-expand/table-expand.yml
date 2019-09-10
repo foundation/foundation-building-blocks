@@ -1,0 +1,16 @@
+name: "Table Expand"
+tags:
+  - table
+  - interaction
+  - javascript
+  - show hide
+category: containers
+description: Table that features smooth expanding rows to show and hide further information.
+versions:
+  - 6.4.1
+  - 6.3.1
+author:
+  github: lgcallahan
+  'foundation-forum': 10
+  name: Leah Callahan
+containerClass: none

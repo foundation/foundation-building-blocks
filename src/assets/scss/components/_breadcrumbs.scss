@@ -1,0 +1,13 @@
+.breadcrumbs {
+  margin: 0 0 1rem;
+
+  li {
+    color: $dark-gray;
+    font-size: rem-calc(14);
+    text-transform: capitalize;
+  }
+
+  @include breakpoint(medium) {
+    margin: 0 0 0.5rem;
+  }
+}

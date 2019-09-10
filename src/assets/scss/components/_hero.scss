@@ -1,0 +1,68 @@
+.hero {
+  align-items: center;
+  background-color: $light-gray;
+  display: flex;
+  height: rem-calc(360);
+
+  &.hero-building-blocks {
+    background-color: $medium-blue;
+    background-size: cover;
+    color: $white;
+  }
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero-content {
+  align-self: center;
+  flex: 4 1 0%;
+  text-align: left;
+
+  @include breakpoint(medium down) {
+    text-align: center;
+  }
+}
+
+.hero-img {
+  flex: 3 1 0%;
+  padding-left: 100px;
+
+  @include breakpoint(medium down) {
+    display: none;
+  }
+}
+
+.hero-header {
+  font-size: rem-calc(47);
+  font-weight: $global-weight-semibold;
+  line-height: rem-calc(50);
+
+  @include breakpoint(medium down) {
+    font-size: rem-calc(30);
+    line-height: rem-calc(35);
+  }
+}
+
+.hero-subheader {
+  font-size: rem-calc(18);
+  margin-bottom: 1.5rem;
+}
+
+.hero-content-button {
+  @include button;
+  @include button-hollow;
+  border: 1px solid $white;
+  font-weight: 600;
+  font-size: rem-calc(17);
+  transition: all 0.25s ease-out;
+
+  &:hover {
+    background: $white;
+    color: $dark-blue;
+    transition: all 0.25s ease-out;
+  }
+}

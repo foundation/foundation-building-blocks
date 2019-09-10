@@ -1,0 +1,16 @@
+name: "CSS Grid - Holy Grail Layout"
+tags:
+  - layout
+  - grid
+  - css grid
+  - header
+  - footer
+  - sidebar
+category: containers
+description: The classic web pattern of a header, footer, and three columns.
+versions:
+  - 6.3.0
+  - 6.3.1
+author:
+  github: canterberrie
+  name: Christine Siu

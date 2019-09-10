@@ -1,0 +1,15 @@
+name: Mobile Action Sheet
+description: A mobile action sheet rising up from a button on the bottom of the screen.
+category: containers
+tags:
+  - mobile
+  - app
+  - action shet
+versions:
+  - 6.3.0
+  - 6.3.1
+containerClass: 'mobile-container'
+author:
+  name: Kevin Ball
+  'foundation-forum': 17824
+  github: kball

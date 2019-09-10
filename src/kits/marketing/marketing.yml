@@ -1,0 +1,24 @@
+name: Marketing
+short_description: Tell your company’s or product’s story in the most engaging way possible.
+description: No matter what product or service you’re providing, your company needs an eye catching marketing site to help you get new business. The Marketing Kit is filled to the rafters with all sorts of design patterns and components so you can make the perfect first impression with your business. This kit includes a big image hero section, the common 3 up content section, a foot, a responsive social icon block, two kinds of testimonials, two top bar navigation menus, and a few product feature options so you can build an incredible marketing site.
+background: '#65438E'
+images:
+  'hero': 'marketing-kit.jpg'
+  'card': 'marketing-kit.jpg'
+blocks:
+  - marketing-site-content-section
+  - marketing-site-features
+  - marketing-site-footer
+  - marketing-site-hero
+  - marketing-site-three-up
+  - responsive-social-media-section
+  - topbar-responsive
+  - read-more
+  - testimonial-block-vertical
+  - featured-testimonials
+  - testimonial-slider
+  - product-feature-section
+  - pricing-table
+  - topbar-center-logo
+  - app-feature-section
+

@@ -1,0 +1,16 @@
+name: 'People you might know'
+tags:
+  - social
+  - icons
+  - people
+  - containers
+  - button
+category: containers
+description: Section for People you might know. This includes a Header, Users profile picture, name and an action button to add as a friend
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  name: Harry Manchanda
+  github: IamManchanda
+  twitter: harmanmanchanda

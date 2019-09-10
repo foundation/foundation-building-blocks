@@ -1,0 +1,16 @@
+name: 'Rounded Social buttons'
+tags:
+  - social
+  - mixin
+  - button
+  - icons
+  - transition
+category: control
+description: A sweet Sass mixin to create Rounded Social buttons with CSS transition and spin rotation on hover/focus.
+versions:
+  - 6.3.1
+  - 6.3.0
+author:
+  github: IamManchanda
+  name: Harry Manchanda
+  twitter: harmanmanchanda

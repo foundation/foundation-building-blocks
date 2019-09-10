@@ -1,0 +1,20 @@
+name: "Sidelines Text Divider"
+tags:
+  - article
+  - blog
+  - content
+  - typography
+category: media
+description: A text divider to separate two sections of content with text.
+versions:
+  - 6.4.3
+  - 6.4.2
+  - 6.4.0
+  - 6.3.1
+  - 6.3.0
+author:
+  github: rafibomb
+  twitter: thefakerafi
+  "foundation-forum": 10
+  name: Rafi
+containerClass: none
