@@ -11,7 +11,7 @@
     "static": "gulp static",
     "deploy": "gulp deploy --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "ZURB <contact@get.foundation>",
   "license": "MIT",
   "devDependencies": {
     "async": "^2.2.0",
@@ -63,7 +63,7 @@
   },
   "bugs": {
     "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "email": "contact@get.foundation"
   },
   "babel": {
     "presets": [
