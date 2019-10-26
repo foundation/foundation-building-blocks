@@ -63,9 +63,9 @@ Need help installing the Foundation CLI? We've put together some tutorials to ge
 
 [Installing the Foundation CLI to Automate Sass Projects](https://youtu.be/rQguHjGzFEw?list=PLJVWPVPk_D_0-LDRu8k29w-7ktRk_dJ5n)
 
-[Installing Foundation CLI on Windows](https://www.get.foundation/learn/install-foundation-6-sass-on-windows.html)
+[Installing Foundation CLI on Windows](https://get.foundation/learn/install-foundation-6-sass-on-windows.html)
 
-[Foundation Docs: CLI Installation](https://www.get.foundation/sites/docs/installation.html)
+[Foundation Docs: CLI Installation](https://get.foundation/sites/docs/installation.html)
 
 #### How to update the Foundation CLI
 
@@ -87,15 +87,15 @@ Like a Building Block? You can copy the HTML and CSS/SCSS and JS (if applicable)
 
 The HTML, CSS, and JS toggles let you focus on one section at a time if you’d like.
 
-![](https://www.get.foundation/building-blocks/assets/img/images/top-section.png)
+![](https://get.foundation/building-blocks/assets/img/images/top-section.png)
 
 You can copy the the code from each code container using the handy copy button.
 
-![](https://www.get.foundation/building-blocks/assets/img/images/copy-section.png)
+![](https://get.foundation/building-blocks/assets/img/images/copy-section.png)
 
 If you are using CSS vs SCSS, you can toggle to the compiled CSS using this handy toggle:
 
-![](https://www.get.foundation/building-blocks/assets/img/images/css-section.png)
+![](https://get.foundation/building-blocks/assets/img/images/css-section.png)
 
 If you’re using the CSS version of Foundation, it’s best to add the CSS to your app.css file that is included with the downloaded Foundation CSS project. You can make any style overrides from there.
 
@@ -227,14 +227,14 @@ If needed, Building Blocks can have an optional layout file that helps you displ
 Create a `layout.html` file inside your Building Blocks folder. So for our example, it will go in the `article-card` folder.
 
 Example:
-![](https://www.get.foundation/building-blocks/assets/img/images/howto-layouthtml.png)
+![](https://get.foundation/building-blocks/assets/img/images/howto-layouthtml.png)
 
 Here we used a Block Grid and included our Building Block 3 times, one for each column. You can use the Panini handlebars include like this or paste the HTML in.
 
 You may need some CSS to ensure your Building Block demo looks as good as possible. In that case you may create a `layout.scss` file to add custom styles.
 
 Example:
-![](https://www.get.foundation/building-blocks/assets/img/images/howto-layoutscss.png)
+![](https://get.foundation/building-blocks/assets/img/images/howto-layoutscss.png)
 
 Note: adding a `layout.html` file will override the `containerClass` variable in your `.yml` file.
 
@@ -286,7 +286,7 @@ Some simple rules to follow:
 
 **Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
 
-This is the official ZURB Template for use with [Foundation for Sites](https://www.get.foundation/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+This is the official ZURB Template for use with [Foundation for Sites](https://get.foundation/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
 
 - Handlebars HTML templates with Panini
 - Sass compilation and prefixing
