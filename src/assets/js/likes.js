@@ -3,7 +3,7 @@
   window.Likes = Likes;
 
   const LIKES_URL = "https://foundation.zurb.com/forum/api/v1/likes";
-  //const LIKES_URL = "http://localhost:3000/api/v1/likes";
+  //const LIKES_URL = "//localhost:3000/api/v1/likes";
   const MY_LIKES_URL = LIKES_URL + '/me';
   const INCREMENT_LIKES_URL = LIKES_URL + '/increment';
   const DECREMENT_LIKES_URL = LIKES_URL + '/decrement';
