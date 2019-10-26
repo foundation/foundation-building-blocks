@@ -273,7 +273,7 @@ Make forms great and easy to use with the following rules:
 
 ## Learn All About Forms
 
-Check out the [Foundation Docs](https://foundation.zurb.com/sites/docs) to learn about how flexible our forms are for creating different layouts. It works perfectly with the grid to meet all your form needs.
+Check out the [Foundation Docs](https://www.get.foundation/sites/docs) to learn about how flexible our forms are for creating different layouts. It works perfectly with the grid to meet all your form needs.
 
 ---
 
