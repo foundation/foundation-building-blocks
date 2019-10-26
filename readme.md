@@ -124,7 +124,7 @@ Building Blocks are made to drop into any Foundation project and work. Therefore
 Since Foundation’s interactive components are build using jQuery, jQuery is a dependency. Every Foundation download or Install comes with this. jQuery is not required for CSS/SCSS only components or non-js components in Foundation.
 
 Some Building Blocks use icon fonts to make them look nicer or convey intention. You can use the same icon fonts by adding them to your project.
-You can download FontAwesome icons here: [//fontawesome.io/](//fontawesome.io/)
+You can download FontAwesome icons here: [https://fontawesome.io/](https://fontawesome.io/)
 
 Or add this CDN to the head of your pages or layout:
 `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">`

@@ -10,7 +10,7 @@ _gaq.push(
 
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : '//www') + '.google-analytics.com/ga.js';
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 var _kmq = _kmq || [];
@@ -26,8 +26,8 @@ function _kms(u){
     f.parentNode.insertBefore(s, f);
   }, 1);
 }
-_kms('//i.kissmetrics.com/i.js');
-_kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+_kms('https://i.kissmetrics.com/i.js');
+_kms('https://doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
 
 }();
 
