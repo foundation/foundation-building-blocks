@@ -169,7 +169,7 @@ function pages() {
       getNewPanini({
         root: PATHS.pages.dir,
         layouts: PATHS.layouts.dir,
-        partials: PATHS.layouts.partials,
+        partials: PATHS.partials.dir,
         data: "src/data/",
         helpers: "src/panini-helpers/"
       })
