@@ -13,29 +13,8 @@ _gaq.push(
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-// var _kmq = _kmq || [];
-// !function() {
-
-// var _kmq = _kmq || [];
-// var _kmk = _kmk || "d945f04ff5e68057c85f5323b46f185efb3826b3";
-// function _kms(u){
-//   setTimeout(function(){
-//     var d = document, f = d.getElementsByTagName('script')[0],
-//     s = d.createElement('script');
-//     s.type = 'text/javascript'; s.async = true; s.src = u;
-//     f.parentNode.insertBefore(s, f);
-//   }, 1);
-// }
-// _kms('https://i.kissmetrics.com/i.js');
-// _kms('https://doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-
-// }();
 
 var mySVGsToInject = document.querySelectorAll('img.inject-me');
-
-// var likes = new window.Likes();
-// likes.populateLikesInPage();
-// likes.setupLike();
 
 SVGInjector(mySVGsToInject);
 var $searchInput = $('input[type="search"]')
@@ -86,7 +65,6 @@ if($searchInput.is('*')) {
         $('#search-results-container').hide();
         $('#result-count').text(results.length);
       }
-      likes.populateLikesInPage();
     }
   });
   var $currentSort = $('[data-sort-current]');
